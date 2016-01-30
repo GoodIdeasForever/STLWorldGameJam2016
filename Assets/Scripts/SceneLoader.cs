@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
 	public void LoadNewScene(string sceneToLoad)
 	{
-		Application.LoadLevel(sceneToLoad);
+        SceneManager.LoadScene(sceneToLoad); 
 	}
 
 	public void ExitGame()

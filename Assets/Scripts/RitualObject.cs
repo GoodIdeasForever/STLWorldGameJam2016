@@ -18,10 +18,10 @@ public class RitualObject : MonoBehaviour
 		
 	}
 	void Awake() {
-		currentSprite.bounds = gameObject.GetComponent<Sprite> ();
+		
 	}
 	void Update() {
 
 	}
-	public void 
+
 }

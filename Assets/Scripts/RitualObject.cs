@@ -7,14 +7,21 @@ public class RitualObject : MonoBehaviour
 	public GameObject BButtonAnimation;
 	public GameObject XButtonAnimation;
 	public GameObject YButtonAnimation;
+	public GameObject UnselectedSprite;
+	public GameObject SelectedSprite;
+	public SpriteRenderer currentSprite;
 
 	public void PlayAnimation() {
 
 	}
 	void Start() {
+		
 	}
-
+	void Awake() {
+		currentSprite.bounds = gameObject.GetComponent<Sprite> ();
+	}
 	void Update() {
 
 	}
+	public void 
 }

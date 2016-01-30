@@ -5,7 +5,7 @@ public class SceneLoader : MonoBehaviour
 {
 	public void LoadNewScene(string sceneToLoad)
 	{
-		Application.LoadLevel(sceneToLoad);
+        Application.LoadLevel(sceneToLoad); 
 	}
 
 	public void ExitGame()

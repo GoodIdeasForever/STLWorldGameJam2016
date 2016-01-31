@@ -136,7 +136,7 @@ public class MovePlayer : MonoBehaviour
         {
             if(XCI.GetButtonDown(btn, controller))
             {
-                Debug.Log("Got Button");
+                Debug.Log(String.Format("Got Button donw for btn {0}", btn));
                 return btn;
             }
         }

@@ -43,6 +43,15 @@ public enum ActionButton
     Y
 }
 
+public enum Summon
+{
+    D,
+    C,
+    U,
+    S,
+    A
+}
+
 public class UIManager : MonoBehaviour {
 
     private static UIManager instance;
@@ -60,10 +69,37 @@ public class UIManager : MonoBehaviour {
     public List<RectTransform> redfoamFingerAnimations;
     public List<RectTransform> redsocksAnimations;
 
+    public ScaleToFullScreen tvCanvasScaler;
+    public RitualObject bluejersey;
+    public RitualObject bluebobbleHead;
+    public RitualObject bluepizzaBox;
+    public RitualObject bluebuddha;
+    public RitualObject bluefoamFinger;
+    public RitualObject bluesocks;
+    public RitualObject redjersey;
+    public RitualObject redbobbleHead;
+    public RitualObject redpizzaBox;
+    public RitualObject redbuddha;
+    public RitualObject redfoamFinger;
+    public RitualObject redsocks;
+
     RitualObjectId currentSelectionRed;
     RitualObjectId currentSelectionBlue;
 
     public bool acceptingInput { get; set; }
+
+    public float showSummonGrahicDelay = 2f;
+    public float showVSGraphicDelay = 3f;
+    public float hideVSGraphicDelay = 4f;
+    public float showAttackGraphicDelay = 4.5f;
+    public float showResultGrahicDelay = 6f;
+    public float resetTVCanvasDelay = 7f;
+
+    public AnimationStateController redSummonAnimations;
+    public AnimationStateController blueSummonAnimations;
+    public AnimationStateController attackAnimations;
+    public RectTransform versusAnimation;
+    public AnimationStateController battleResultAnimations;
 
     void Awake()
     {
@@ -73,6 +109,12 @@ public class UIManager : MonoBehaviour {
         }
         instance = this;
     } 
+
+    void Start()
+    {
+        acceptingInput = true;
+    }
+
     public static UIManager Instance {
         get {
             if(instance == null) {
@@ -82,7 +124,36 @@ public class UIManager : MonoBehaviour {
         }
     }
 	
-	public RitualObjectId SelectRitualObject(Direction direction, Player play)
+    // For debug testing
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            SelectRitualObject(Direction.Right, Player.Red);
+        }
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            SelectRitualObject(Direction.Left, Player.Red);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            TrySelectRitualAction(ActionButton.A, Player.Red);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            TrySelectRitualAction(ActionButton.B, Player.Red);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            TrySelectRitualAction(ActionButton.X, Player.Red);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            TrySelectRitualAction(ActionButton.Y, Player.Red);
+        }
+    }
+
+    public RitualObjectId SelectRitualObject(Direction direction, Player play)
     {
         RitualObjectId tempSelection = RitualObjectId.NONE;
         if (play == Player.Red && acceptingInput)
@@ -181,6 +252,13 @@ public class UIManager : MonoBehaviour {
     {
         if (player == Player.Red)
         {
+            redjersey.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            redbobbleHead.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            redpizzaBox.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            redbuddha.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            redfoamFinger.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            redsocks.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            /*
             foreach (var canvas in redjerseyAnimations)
             {
                 canvas.gameObject.SetActive(false);
@@ -205,10 +283,18 @@ public class UIManager : MonoBehaviour {
             {
                 canvas.gameObject.SetActive(false);
             }
+            */
             currentSelectionRed = RitualObjectId.NONE;
         }
         else if (player == Player.Blue)
         {
+            bluejersey.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            bluebobbleHead.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            bluepizzaBox.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            bluebuddha.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            bluefoamFinger.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            bluesocks.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            /*
             foreach (var canvas in bluejerseyAnimations)
             {
                 canvas.gameObject.SetActive(false);
@@ -233,6 +319,7 @@ public class UIManager : MonoBehaviour {
             {
                 canvas.gameObject.SetActive(false);
             }
+            */
             currentSelectionBlue = RitualObjectId.NONE;
         }
     }
@@ -244,46 +331,52 @@ public class UIManager : MonoBehaviour {
             switch(ritualObj)
             {
                 case RitualObjectId.BobbleHead:
-                    foreach (var ui in redbobbleHeadAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    redbobbleHeadAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in redbobbleHeadAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //redbobbleHeadAnimations[(int)anim].gameObject.SetActive(true);
+                    redbobbleHead.PlayObjectInteraction(anim);
                     break;
                 case RitualObjectId.Buddha:
-                    foreach (var ui in redbuddhaAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    redbuddhaAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in redbuddhaAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //redbuddhaAnimations[(int)anim].gameObject.SetActive(true);
+                    redbuddha.PlayObjectInteraction(anim);
                     break;
                 case RitualObjectId.FoamFinger:
-                    foreach (var ui in redfoamFingerAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    redfoamFingerAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in redfoamFingerAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //redfoamFingerAnimations[(int)anim].gameObject.SetActive(true);
+                    redfoamFinger.PlayObjectInteraction(anim);
                     break;
                 case RitualObjectId.Jersey:
-                    foreach (var ui in redjerseyAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    redjerseyAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in redjerseyAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //redjerseyAnimations[(int)anim].gameObject.SetActive(true);
+                    redjersey.PlayObjectInteraction(anim);
                     break;
                 case RitualObjectId.PizzaBox:
-                    foreach (var ui in redpizzaBoxAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    redpizzaBoxAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in redpizzaBoxAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //redpizzaBoxAnimations[(int)anim].gameObject.SetActive(true);
+                    redpizzaBox.PlayObjectInteraction(anim);
                     break;
                 case RitualObjectId.Socks:
-                    foreach (var ui in redsocksAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    redsocksAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in redsocksAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //redsocksAnimations[(int)anim].gameObject.SetActive(true);
+                    redsocks.PlayObjectInteraction(anim);
                     break;
                 default:
                     break;
@@ -295,51 +388,145 @@ public class UIManager : MonoBehaviour {
             switch (ritualObj)
             {
                 case RitualObjectId.BobbleHead:
-                    foreach (var ui in bluebobbleHeadAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    bluebobbleHeadAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in bluebobbleHeadAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //bluebobbleHeadAnimations[(int)anim].gameObject.SetActive(true);
+                    bluebobbleHead.PlayObjectInteraction(anim);
                     break;
                 case RitualObjectId.Buddha:
-                    foreach (var ui in bluebuddhaAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    bluebuddhaAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in bluebuddhaAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //bluebuddhaAnimations[(int)anim].gameObject.SetActive(true);
+                    bluebuddha.PlayObjectInteraction(anim);
                     break;
                 case RitualObjectId.FoamFinger:
-                    foreach (var ui in bluefoamFingerAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    bluefoamFingerAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in bluefoamFingerAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //bluefoamFingerAnimations[(int)anim].gameObject.SetActive(true);
+                    bluefoamFinger.PlayObjectInteraction(anim);
                     break;
                 case RitualObjectId.Jersey:
-                    foreach (var ui in bluejerseyAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    bluejerseyAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in bluejerseyAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //bluejerseyAnimations[(int)anim].gameObject.SetActive(true);
+                    bluejersey.PlayObjectInteraction(anim);
                     break;
                 case RitualObjectId.PizzaBox:
-                    foreach (var ui in bluepizzaBoxAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    bluepizzaBoxAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in bluepizzaBoxAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //bluepizzaBoxAnimations[(int)anim].gameObject.SetActive(true);
+                    bluepizzaBox.PlayObjectInteraction(anim);
                     break;
                 case RitualObjectId.Socks:
-                    foreach (var ui in bluesocksAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    bluesocksAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in bluesocksAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //bluesocksAnimations[(int)anim].gameObject.SetActive(true);
+                    bluesocks.PlayObjectInteraction(anim);
                     break;
                 default:
                     break;
 
             }
         }
+    }
+
+    public void DisplaySummonBattle(Summon redSummon, Summon blueSummon)
+    {
+        acceptingInput = false;
+        tvCanvasScaler.BeginScaleIn();
+        BattleResult result = GameState.instance.GetBattleResult(redSummon, blueSummon);
+        StartCoroutine(DelayShowSummonAnimations(redSummon, blueSummon));
+        StartCoroutine(DelayShowVSAnimation());
+        StartCoroutine(DelayHideVSAnimation());
+        StartCoroutine(DelayShowAttackAnimation(redSummon,blueSummon,result));
+        StartCoroutine(DelayShowResultAnimations(result));
+
+    }
+
+    IEnumerator DelayShowSummonAnimations(Summon redSummon, Summon blueSummon)
+    {
+        float timeDelta = 0f;
+        while (timeDelta < showSummonGrahicDelay)
+        {
+            timeDelta += Time.deltaTime;
+            yield return null;
+        }
+        redSummonAnimations.PlayAnimation((int)redSummon);
+        blueSummonAnimations.PlayAnimation((int)blueSummon);
+    }
+
+    IEnumerator DelayShowVSAnimation()
+    {
+        float timeDelta = 0f;
+        while (timeDelta < showVSGraphicDelay)
+        {
+            timeDelta += Time.deltaTime;
+            yield return null;
+        }
+        versusAnimation.gameObject.SetActive(true);
+    }
+
+    IEnumerator DelayHideVSAnimation()
+    {
+        float timeDelta = 0f;
+        while (timeDelta < hideVSGraphicDelay)
+        {
+            timeDelta += Time.deltaTime;
+            yield return null;
+        }
+        versusAnimation.gameObject.SetActive(false);
+    }
+
+    IEnumerator DelayShowAttackAnimation(Summon redSummon, Summon blueSummon, BattleResult result)
+    {
+        float timeDelta = 0f;
+        while (timeDelta < showAttackGraphicDelay)
+        {
+            timeDelta += Time.deltaTime;
+            yield return null;
+        }
+        if (result != BattleResult.Draw)
+        {
+            attackAnimations.PlayAnimation((int)(result == BattleResult.RedVictory ? redSummon : blueSummon));
+        }
+    }
+
+    IEnumerator DelayShowResultAnimations(BattleResult result)
+    {
+        float timeDelta = 0f;
+        while (timeDelta < showResultGrahicDelay)
+        {
+            timeDelta += Time.deltaTime;
+            yield return null;
+        }
+        battleResultAnimations.PlayAnimation((int)result);
+    }
+
+    IEnumerator DelayResetTVCanvas()
+    {
+        float timeDelta = 0f;
+        while (timeDelta < resetTVCanvasDelay)
+        {
+            timeDelta += Time.deltaTime;
+            yield return null;
+        }
+        redSummonAnimations.Clear();
+        bluesocksAnimations.Clear();
+        attackAnimations.Clear();
+        versusAnimation.gameObject.SetActive(false);
+        battleResultAnimations.Clear();
+        tvCanvasScaler.BeginScaleIn();
     }
 }

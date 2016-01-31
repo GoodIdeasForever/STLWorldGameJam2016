@@ -1,0 +1,1177 @@
+fileFormatVersion: 2
+guid: 6ab3332ca077440a296298b4970e5b2c
+timeCreated: 1454267205
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: armadillo-animation-red_0
+    21300002: armadillo-animation-red_1
+    21300004: armadillo-animation-red_2
+    21300006: armadillo-animation-red_3
+    21300008: armadillo-animation-red_4
+    21300010: armadillo-animation-red_5
+    21300012: armadillo-animation-red_6
+    21300014: armadillo-animation-red_7
+    21300016: armadillo-animation-red_8
+    21300018: armadillo-animation-red_9
+    21300020: armadillo-animation-red_10
+    21300022: armadillo-animation-red_11
+    21300024: armadillo-animation-red_12
+    21300026: armadillo-animation-red_13
+    21300028: armadillo-animation-red_14
+    21300030: armadillo-animation-red_15
+    21300032: armadillo-animation-red_16
+    21300034: armadillo-animation-red_17
+    21300036: armadillo-animation-red_18
+    21300038: armadillo-animation-red_19
+    21300040: armadillo-animation-red_20
+    21300042: armadillo-animation-red_21
+    21300044: armadillo-animation-red_22
+    21300046: armadillo-animation-red_23
+    21300048: armadillo-animation-red_24
+    21300050: armadillo-animation-red_25
+    21300052: armadillo-animation-red_26
+    21300054: armadillo-animation-red_27
+    21300056: armadillo-animation-red_28
+    21300058: armadillo-animation-red_29
+    21300060: armadillo-animation-red_30
+    21300062: armadillo-animation-red_31
+    21300064: armadillo-animation-red_32
+    21300066: armadillo-animation-red_33
+    21300068: armadillo-animation-red_34
+    21300070: armadillo-animation-red_35
+    21300072: armadillo-animation-red_36
+    21300074: armadillo-animation-red_37
+    21300076: armadillo-animation-red_38
+    21300078: armadillo-animation-red_39
+    21300080: armadillo-animation-red_40
+    21300082: armadillo-animation-red_41
+    21300084: armadillo-animation-red_42
+    21300086: armadillo-animation-red_43
+    21300088: armadillo-animation-red_44
+    21300090: armadillo-animation-red_45
+    21300092: armadillo-animation-red_46
+    21300094: armadillo-animation-red_47
+    21300096: armadillo-animation-red_48
+    21300098: armadillo-animation-red_49
+    21300100: armadillo-animation-red_50
+    21300102: armadillo-animation-red_51
+    21300104: armadillo-animation-red_52
+    21300106: armadillo-animation-red_53
+    21300108: armadillo-animation-red_54
+    21300110: armadillo-animation-red_55
+    21300112: armadillo-animation-red_56
+    21300114: armadillo-animation-red_57
+    21300116: armadillo-animation-red_58
+    21300118: armadillo-animation-red_59
+    21300120: armadillo-animation-red_60
+    21300122: armadillo-animation-red_61
+    21300124: armadillo-animation-red_62
+    21300126: armadillo-animation-red_63
+    21300128: armadillo-animation-red_64
+    21300130: armadillo-animation-red_65
+    21300132: armadillo-animation-red_66
+    21300134: armadillo-animation-red_67
+    21300136: armadillo-animation-red_68
+    21300138: armadillo-animation-red_69
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: armadillo-animation-red_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8827
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 73.835815}
+        - {x: -108, y: -73.164185}
+        - {x: 108, y: -73.164185}
+        - {x: 108, y: 73.835815}
+    - name: armadillo-animation-red_1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 8827
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 73.835815}
+        - {x: -107.600006, y: -73.164185}
+        - {x: 108.399994, y: -73.164185}
+        - {x: 108.399994, y: 73.835815}
+    - name: armadillo-animation-red_2
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 8827
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 73.835815}
+        - {x: -107.70001, y: -73.164185}
+        - {x: 109.29999, y: -73.164185}
+        - {x: 109.29999, y: 73.835815}
+    - name: armadillo-animation-red_3
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 8827
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 73.835815}
+        - {x: -107.79999, y: -73.164185}
+        - {x: 108.20001, y: -73.164185}
+        - {x: 108.20001, y: 73.835815}
+    - name: armadillo-animation-red_4
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 8827
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 73.835815}
+        - {x: -107.400024, y: -73.164185}
+        - {x: 108.599976, y: -73.164185}
+        - {x: 108.599976, y: 73.835815}
+    - name: armadillo-animation-red_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8148
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 73.57922}
+        - {x: -108, y: -73.42078}
+        - {x: 108, y: -73.42078}
+        - {x: 108, y: 73.57922}
+    - name: armadillo-animation-red_6
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 8148
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 73.57922}
+        - {x: -107.600006, y: -73.42078}
+        - {x: 108.399994, y: -73.42078}
+        - {x: 108.399994, y: 73.57922}
+    - name: armadillo-animation-red_7
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 8148
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 73.57922}
+        - {x: -107.70001, y: -73.42078}
+        - {x: 109.29999, y: -73.42078}
+        - {x: 109.29999, y: 73.57922}
+    - name: armadillo-animation-red_8
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 8148
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 73.57922}
+        - {x: -107.79999, y: -73.42078}
+        - {x: 108.20001, y: -73.42078}
+        - {x: 108.20001, y: 73.57922}
+    - name: armadillo-animation-red_9
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 8148
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 73.57922}
+        - {x: -107.400024, y: -73.42078}
+        - {x: 108.599976, y: -73.42078}
+        - {x: 108.599976, y: 73.57922}
+    - name: armadillo-animation-red_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7469
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 74.82251}
+        - {x: -108, y: -73.17749}
+        - {x: 108, y: -73.17749}
+        - {x: 108, y: 74.82251}
+    - name: armadillo-animation-red_11
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 7469
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 74.82251}
+        - {x: -107.600006, y: -73.17749}
+        - {x: 108.399994, y: -73.17749}
+        - {x: 108.399994, y: 74.82251}
+    - name: armadillo-animation-red_12
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 7469
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 74.82251}
+        - {x: -107.70001, y: -73.17749}
+        - {x: 109.29999, y: -73.17749}
+        - {x: 109.29999, y: 74.82251}
+    - name: armadillo-animation-red_13
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 7469
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 74.82251}
+        - {x: -107.79999, y: -73.17749}
+        - {x: 108.20001, y: -73.17749}
+        - {x: 108.20001, y: 74.82251}
+    - name: armadillo-animation-red_14
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 7469
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 74.82251}
+        - {x: -107.400024, y: -73.17749}
+        - {x: 108.599976, y: -73.17749}
+        - {x: 108.599976, y: 74.82251}
+    - name: armadillo-animation-red_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6790
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 74.06592}
+        - {x: -108, y: -72.93408}
+        - {x: 108, y: -72.93408}
+        - {x: 108, y: 74.06592}
+    - name: armadillo-animation-red_16
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 6790
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 74.06592}
+        - {x: -107.600006, y: -72.93408}
+        - {x: 108.399994, y: -72.93408}
+        - {x: 108.399994, y: 74.06592}
+    - name: armadillo-animation-red_17
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 6790
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 74.06592}
+        - {x: -107.70001, y: -72.93408}
+        - {x: 109.29999, y: -72.93408}
+        - {x: 109.29999, y: 74.06592}
+    - name: armadillo-animation-red_18
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 6790
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 74.06592}
+        - {x: -107.79999, y: -72.93408}
+        - {x: 108.20001, y: -72.93408}
+        - {x: 108.20001, y: 74.06592}
+    - name: armadillo-animation-red_19
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 6790
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 74.06592}
+        - {x: -107.400024, y: -72.93408}
+        - {x: 108.599976, y: -72.93408}
+        - {x: 108.599976, y: 74.06592}
+    - name: armadillo-animation-red_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6111
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 73.809326}
+        - {x: -108, y: -73.190674}
+        - {x: 108, y: -73.190674}
+        - {x: 108, y: 73.809326}
+    - name: armadillo-animation-red_21
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 6111
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 73.809326}
+        - {x: -107.600006, y: -73.190674}
+        - {x: 108.399994, y: -73.190674}
+        - {x: 108.399994, y: 73.809326}
+    - name: armadillo-animation-red_22
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 6111
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 73.809326}
+        - {x: -107.70001, y: -73.190674}
+        - {x: 109.29999, y: -73.190674}
+        - {x: 109.29999, y: 73.809326}
+    - name: armadillo-animation-red_23
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 6111
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 73.809326}
+        - {x: -107.79999, y: -73.190674}
+        - {x: 108.20001, y: -73.190674}
+        - {x: 108.20001, y: 73.809326}
+    - name: armadillo-animation-red_24
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 6111
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 73.809326}
+        - {x: -107.400024, y: -73.190674}
+        - {x: 108.599976, y: -73.190674}
+        - {x: 108.599976, y: 73.809326}
+    - name: armadillo-animation-red_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5432
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 73.552734}
+        - {x: -108, y: -73.447266}
+        - {x: 108, y: -73.447266}
+        - {x: 108, y: 73.552734}
+    - name: armadillo-animation-red_26
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 5432
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 73.552734}
+        - {x: -107.600006, y: -73.447266}
+        - {x: 108.399994, y: -73.447266}
+        - {x: 108.399994, y: 73.552734}
+    - name: armadillo-animation-red_27
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5432
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 73.552734}
+        - {x: -107.70001, y: -73.447266}
+        - {x: 109.29999, y: -73.447266}
+        - {x: 109.29999, y: 73.552734}
+    - name: armadillo-animation-red_28
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5432
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 73.552734}
+        - {x: -107.79999, y: -73.447266}
+        - {x: 108.20001, y: -73.447266}
+        - {x: 108.20001, y: 73.552734}
+    - name: armadillo-animation-red_29
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5432
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 73.552734}
+        - {x: -107.400024, y: -73.447266}
+        - {x: 108.599976, y: -73.447266}
+        - {x: 108.599976, y: 73.552734}
+    - name: armadillo-animation-red_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4753
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 74.7962}
+        - {x: -108, y: -73.2038}
+        - {x: 108, y: -73.2038}
+        - {x: 108, y: 74.7962}
+    - name: armadillo-animation-red_31
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 4753
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 74.7962}
+        - {x: -107.600006, y: -73.2038}
+        - {x: 108.399994, y: -73.2038}
+        - {x: 108.399994, y: 74.7962}
+    - name: armadillo-animation-red_32
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4753
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 74.7962}
+        - {x: -107.70001, y: -73.2038}
+        - {x: 109.29999, y: -73.2038}
+        - {x: 109.29999, y: 74.7962}
+    - name: armadillo-animation-red_33
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4753
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 74.7962}
+        - {x: -107.79999, y: -73.2038}
+        - {x: 108.20001, y: -73.2038}
+        - {x: 108.20001, y: 74.7962}
+    - name: armadillo-animation-red_34
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4753
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 74.7962}
+        - {x: -107.400024, y: -73.2038}
+        - {x: 108.599976, y: -73.2038}
+        - {x: 108.599976, y: 74.7962}
+    - name: armadillo-animation-red_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4074
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 74.03961}
+        - {x: -108, y: -72.96039}
+        - {x: 108, y: -72.96039}
+        - {x: 108, y: 74.03961}
+    - name: armadillo-animation-red_36
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 4074
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 74.03961}
+        - {x: -107.600006, y: -72.96039}
+        - {x: 108.399994, y: -72.96039}
+        - {x: 108.399994, y: 74.03961}
+    - name: armadillo-animation-red_37
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4074
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 74.03961}
+        - {x: -107.70001, y: -72.96039}
+        - {x: 109.29999, y: -72.96039}
+        - {x: 109.29999, y: 74.03961}
+    - name: armadillo-animation-red_38
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4074
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 74.03961}
+        - {x: -107.79999, y: -72.96039}
+        - {x: 108.20001, y: -72.96039}
+        - {x: 108.20001, y: 74.03961}
+    - name: armadillo-animation-red_39
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4074
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 74.03961}
+        - {x: -107.400024, y: -72.96039}
+        - {x: 108.599976, y: -72.96039}
+        - {x: 108.599976, y: 74.03961}
+    - name: armadillo-animation-red_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3395
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 73.78296}
+        - {x: -108, y: -73.21704}
+        - {x: 108, y: -73.21704}
+        - {x: 108, y: 73.78296}
+    - name: armadillo-animation-red_41
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3395
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 73.78296}
+        - {x: -107.600006, y: -73.21704}
+        - {x: 108.399994, y: -73.21704}
+        - {x: 108.399994, y: 73.78296}
+    - name: armadillo-animation-red_42
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3395
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 73.78296}
+        - {x: -107.70001, y: -73.21704}
+        - {x: 109.29999, y: -73.21704}
+        - {x: 109.29999, y: 73.78296}
+    - name: armadillo-animation-red_43
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3395
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 73.78296}
+        - {x: -107.79999, y: -73.21704}
+        - {x: 108.20001, y: -73.21704}
+        - {x: 108.20001, y: 73.78296}
+    - name: armadillo-animation-red_44
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3395
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 73.78296}
+        - {x: -107.400024, y: -73.21704}
+        - {x: 108.599976, y: -73.21704}
+        - {x: 108.599976, y: 73.78296}
+    - name: armadillo-animation-red_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2716
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 73.52637}
+        - {x: -108, y: -73.47363}
+        - {x: 108, y: -73.47363}
+        - {x: 108, y: 73.52637}
+    - name: armadillo-animation-red_46
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2716
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 73.52637}
+        - {x: -107.600006, y: -73.47363}
+        - {x: 108.399994, y: -73.47363}
+        - {x: 108.399994, y: 73.52637}
+    - name: armadillo-animation-red_47
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2716
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 73.52637}
+        - {x: -107.70001, y: -73.47363}
+        - {x: 109.29999, y: -73.47363}
+        - {x: 109.29999, y: 73.52637}
+    - name: armadillo-animation-red_48
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2716
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 73.52637}
+        - {x: -107.79999, y: -73.47363}
+        - {x: 108.20001, y: -73.47363}
+        - {x: 108.20001, y: 73.52637}
+    - name: armadillo-animation-red_49
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2716
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 73.52637}
+        - {x: -107.400024, y: -73.47363}
+        - {x: 108.599976, y: -73.47363}
+        - {x: 108.599976, y: 73.52637}
+    - name: armadillo-animation-red_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2037
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 74.769806}
+        - {x: -108, y: -73.230194}
+        - {x: 108, y: -73.230194}
+        - {x: 108, y: 74.769806}
+    - name: armadillo-animation-red_51
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2037
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 74.769806}
+        - {x: -107.600006, y: -73.230194}
+        - {x: 108.399994, y: -73.230194}
+        - {x: 108.399994, y: 74.769806}
+    - name: armadillo-animation-red_52
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2037
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 74.769806}
+        - {x: -107.70001, y: -73.230194}
+        - {x: 109.29999, y: -73.230194}
+        - {x: 109.29999, y: 74.769806}
+    - name: armadillo-animation-red_53
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2037
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 74.769806}
+        - {x: -107.79999, y: -73.230194}
+        - {x: 108.20001, y: -73.230194}
+        - {x: 108.20001, y: 74.769806}
+    - name: armadillo-animation-red_54
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2037
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 74.769806}
+        - {x: -107.400024, y: -73.230194}
+        - {x: 108.599976, y: -73.230194}
+        - {x: 108.599976, y: 74.769806}
+    - name: armadillo-animation-red_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1358
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 74.01318}
+        - {x: -108, y: -72.98682}
+        - {x: 108, y: -72.98682}
+        - {x: 108, y: 74.01318}
+    - name: armadillo-animation-red_56
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1358
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 74.01318}
+        - {x: -107.600006, y: -72.98682}
+        - {x: 108.399994, y: -72.98682}
+        - {x: 108.399994, y: 74.01318}
+    - name: armadillo-animation-red_57
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1358
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 74.01318}
+        - {x: -107.70001, y: -72.98682}
+        - {x: 109.29999, y: -72.98682}
+        - {x: 109.29999, y: 74.01318}
+    - name: armadillo-animation-red_58
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1358
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 74.01318}
+        - {x: -107.79999, y: -72.98682}
+        - {x: 108.20001, y: -72.98682}
+        - {x: 108.20001, y: 74.01318}
+    - name: armadillo-animation-red_59
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1358
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 74.01318}
+        - {x: -107.400024, y: -72.98682}
+        - {x: 108.599976, y: -72.98682}
+        - {x: 108.599976, y: 74.01318}
+    - name: armadillo-animation-red_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 679
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 73.75659}
+        - {x: -108, y: -73.24341}
+        - {x: 108, y: -73.24341}
+        - {x: 108, y: 73.75659}
+    - name: armadillo-animation-red_61
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 679
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 73.75659}
+        - {x: -107.600006, y: -73.24341}
+        - {x: 108.399994, y: -73.24341}
+        - {x: 108.399994, y: 73.75659}
+    - name: armadillo-animation-red_62
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 679
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 73.75659}
+        - {x: -107.70001, y: -73.24341}
+        - {x: 109.29999, y: -73.24341}
+        - {x: 109.29999, y: 73.75659}
+    - name: armadillo-animation-red_63
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 679
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 73.75659}
+        - {x: -107.79999, y: -73.24341}
+        - {x: 108.20001, y: -73.24341}
+        - {x: 108.20001, y: 73.75659}
+    - name: armadillo-animation-red_64
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 679
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 73.75659}
+        - {x: -107.400024, y: -73.24341}
+        - {x: 108.599976, y: -73.24341}
+        - {x: 108.599976, y: 73.75659}
+    - name: armadillo-animation-red_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 73.5}
+        - {x: -108, y: -73.5}
+        - {x: 108, y: -73.5}
+        - {x: 108, y: 73.5}
+    - name: armadillo-animation-red_66
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 73.5}
+        - {x: -107.600006, y: -73.5}
+        - {x: 108.399994, y: -73.5}
+        - {x: 108.399994, y: 73.5}
+    - name: armadillo-animation-red_67
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 73.5}
+        - {x: -107.70001, y: -73.5}
+        - {x: 109.29999, y: -73.5}
+        - {x: 109.29999, y: 73.5}
+    - name: armadillo-animation-red_68
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 73.5}
+        - {x: -107.79999, y: -73.5}
+        - {x: 108.20001, y: -73.5}
+        - {x: 108.20001, y: 73.5}
+    - name: armadillo-animation-red_69
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 73.5}
+        - {x: -107.400024, y: -73.5}
+        - {x: 108.599976, y: -73.5}
+        - {x: 108.599976, y: 73.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

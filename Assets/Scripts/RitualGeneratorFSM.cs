@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class RitualGeneratorFSM : MonoBehaviour
+public class RitualGeneratorFSM
 {
 	#region Control Constants
 	// Tweak these values to control the generation of rituals
@@ -29,7 +29,7 @@ public class RitualGeneratorFSM : MonoBehaviour
 
 	public class CurrentRitualProgress
 	{
-		public bool isDud;
+		public bool isDud = true;
 		public int ritualNumber; // 0..summonRitualCount-1 || 0..dudRitualCount-1
 		public int currentSteps;
 		public int requiredSteps;
@@ -57,6 +57,13 @@ public class RitualGeneratorFSM : MonoBehaviour
 	#region Public Interface
 	public void InitializeRituals(int randomSeed)
 	{
+        completedRitualMessages.Clear();
+
+        currentRitualProgress.isDud = true;
+        currentRitualProgress.ritualNumber = -1;
+        currentRitualProgress.currentSteps = -1;
+        currentRitualProgress.currentSteps = -1;
+
 		System.Random rng = new System.Random(randomSeed);
 
 		for (int i = 0; i < summonRitualCount + dudRitualCount; ++i)
@@ -171,5 +178,9 @@ public class RitualGeneratorFSM : MonoBehaviour
 
 		return false;
 	}
-	#endregion
+    #endregion
+
+    #region Debugging assists
+
+    #endregion
 }

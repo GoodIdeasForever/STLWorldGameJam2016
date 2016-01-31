@@ -1,0 +1,240 @@
+fileFormatVersion: 2
+guid: b77180bfb0a7e2643bb8e8aaaa19645c
+timeCreated: 1454193153
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BUDDHA_Animated_0
+    21300002: BUDDHA_Animated_1
+    21300004: BUDDHA_Animated_2
+    21300006: BUDDHA_Animated_3
+    21300008: BUDDHA_Animated_4
+    21300010: BUDDHA_Animated_5
+    21300012: BUDDHA_Animated_6
+    21300014: BUDDHA_Animated_7
+    21300016: BUDDHA_Animated_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BUDDHA_Animated_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 134
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 67}
+        - {x: -43, y: 67}
+        - {x: -67, y: 57}
+        - {x: -67, y: -67}
+        - {x: 51, y: -67}
+        - {x: 67, y: -59}
+        - {x: 67, y: 16}
+        - {x: 64, y: 30}
+    - name: BUDDHA_Animated_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 135
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -67.5, y: -52}
+        - {x: -59.5, y: -67}
+        - {x: 51.5, y: -67}
+        - {x: 67.5, y: -62}
+        - {x: 67.5, y: 20}
+        - {x: 65.5, y: 25}
+        - {x: 37.5, y: 67}
+        - {x: -23.5, y: 67}
+        - {x: -67.5, y: 38}
+    - name: BUDDHA_Animated_2
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 0
+        width: 135
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 67}
+        - {x: -67.5, y: 29}
+        - {x: -67.5, y: -42}
+        - {x: -60.5, y: -67}
+        - {x: 61.5, y: -67}
+        - {x: 67.5, y: -50}
+        - {x: 67.5, y: 37}
+        - {x: 23.5, y: 67}
+    - name: BUDDHA_Animated_3
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 0
+        width: 135
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 67}
+        - {x: -67.5, y: 29}
+        - {x: -67.5, y: -42}
+        - {x: -60.5, y: -67}
+        - {x: 61.5, y: -67}
+        - {x: 67.5, y: -50}
+        - {x: 67.5, y: 37}
+        - {x: 23.5, y: 67}
+    - name: BUDDHA_Animated_4
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 0
+        width: 135
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 67}
+        - {x: -67.5, y: 29}
+        - {x: -67.5, y: -42}
+        - {x: -60.5, y: -67}
+        - {x: 61.5, y: -67}
+        - {x: 67.5, y: -50}
+        - {x: 67.5, y: 37}
+        - {x: 23.5, y: 67}
+    - name: BUDDHA_Animated_5
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 0
+        width: 135
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 67}
+        - {x: -67.5, y: 29}
+        - {x: -67.5, y: -42}
+        - {x: -60.5, y: -67}
+        - {x: 61.5, y: -67}
+        - {x: 67.5, y: -50}
+        - {x: 67.5, y: 37}
+        - {x: 23.5, y: 67}
+    - name: BUDDHA_Animated_6
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 0
+        width: 135
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 67}
+        - {x: -67.5, y: 29}
+        - {x: -67.5, y: -42}
+        - {x: -60.5, y: -67}
+        - {x: 61.5, y: -67}
+        - {x: 67.5, y: -50}
+        - {x: 67.5, y: 37}
+        - {x: 23.5, y: 67}
+    - name: BUDDHA_Animated_7
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 0
+        width: 135
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -67.5, y: -52}
+        - {x: -59.5, y: -67}
+        - {x: 51.5, y: -67}
+        - {x: 67.5, y: -62}
+        - {x: 67.5, y: 20}
+        - {x: 65.5, y: 25}
+        - {x: 37.5, y: 67}
+        - {x: -23.5, y: 67}
+        - {x: -67.5, y: 38}
+    - name: BUDDHA_Animated_8
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 0
+        width: 135
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 67}
+        - {x: -28.5, y: 64}
+        - {x: -67.5, y: 8}
+        - {x: -67.5, y: -39}
+        - {x: -54.5, y: -67}
+        - {x: 61.5, y: -67}
+        - {x: 67.5, y: -54}
+        - {x: 67.5, y: 10}
+        - {x: 23.5, y: 67}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

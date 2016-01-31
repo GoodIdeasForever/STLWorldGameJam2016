@@ -1,0 +1,323 @@
+fileFormatVersion: 2
+guid: 0c309737ff70b024a92e96f642decab3
+timeCreated: 1454197595
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Red-Socks-Animated_0
+    21300002: Red-Socks-Animated_1
+    21300004: Red-Socks-Animated_2
+    21300006: Red-Socks-Animated_3
+    21300008: Red-Socks-Animated_4
+    21300010: Red-Socks-Animated_5
+    21300012: Red-Socks-Animated_6
+    21300014: Red-Socks-Animated_7
+    21300016: Red-Socks-Animated_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Red-Socks-Animated_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 856
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 106, y: 101}
+        - {x: -46, y: 101}
+        - {x: -48, y: 100}
+        - {x: -114, y: -26}
+        - {x: -114, y: -79}
+        - {x: -112, y: -87}
+        - {x: -35, y: -101}
+        - {x: 42, y: -101}
+        - {x: 113, y: -43}
+        - {x: 114, y: -36}
+        - {x: 114, y: 35}
+      - - {x: 111, y: -50}
+        - {x: 113, y: -52}
+        - {x: 114, y: -52}
+        - {x: 114, y: -44}
+        - {x: 111, y: -45}
+    - name: Red-Socks-Animated_1
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 0
+        width: 858
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.45137, y: 101}
+        - {x: -37.54863, y: 101}
+        - {x: -42.54863, y: 94}
+        - {x: -101.54863, y: -9}
+        - {x: -113.54863, y: -33}
+        - {x: -113.54863, y: -76}
+        - {x: -111.54863, y: -82}
+        - {x: -61.54863, y: -101}
+        - {x: 42.45137, y: -101}
+        - {x: 70.45137, y: -92}
+        - {x: 115.45137, y: -43}
+        - {x: 115.45137, y: 20}
+        - {x: 102.45137, y: 92}
+      - - {x: -113.54863, y: -30}
+        - {x: -110.54863, y: -29}
+        - {x: -110.54863, y: -13}
+        - {x: -112.54863, y: -11}
+        - {x: -113.54863, y: -11}
+    - name: Red-Socks-Animated_2
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 0
+        width: 857
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.433624, y: 99}
+        - {x: 20.433624, y: 101}
+        - {x: -42.566376, y: 101}
+        - {x: -70.566376, y: 25}
+        - {x: -113.566376, y: -29}
+        - {x: -113.566376, y: -76}
+        - {x: -92.566376, y: -95}
+        - {x: -43.566376, y: -101}
+        - {x: 36.433624, y: -101}
+        - {x: 114.433624, y: -51}
+        - {x: 114.433624, y: 19}
+        - {x: 100.433624, y: 92}
+      - - {x: -113.566376, y: -28}
+        - {x: -110.566376, y: -27}
+        - {x: -110.566376, y: -15}
+        - {x: -112.566376, y: -13}
+        - {x: -113.566376, y: -13}
+    - name: Red-Socks-Animated_3
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 0
+        width: 860
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69.88501, y: 101}
+        - {x: -47.11499, y: 101}
+        - {x: -55.11499, y: 28}
+        - {x: -104.11499, y: -7}
+        - {x: -114.11499, y: -30}
+        - {x: -114.11499, y: -81}
+        - {x: -112.11499, y: -85}
+        - {x: -37.11499, y: -101}
+        - {x: 39.88501, y: -101}
+        - {x: 114.88501, y: -44}
+        - {x: 114.88501, y: 14}
+        - {x: 102.88501, y: 97}
+      - - {x: -114.11499, y: -31}
+        - {x: -111.11499, y: -30}
+        - {x: -111.11499, y: -12}
+        - {x: -113.11499, y: -10}
+        - {x: -114.11499, y: -10}
+    - name: Red-Socks-Animated_4
+      rect:
+        serializedVersion: 2
+        x: 3425
+        y: 0
+        width: 860
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52.63269, y: 101}
+        - {x: -44.36731, y: 101}
+        - {x: -60.36731, y: 29}
+        - {x: -114.36731, y: -15}
+        - {x: -114.36731, y: -75}
+        - {x: -90.36731, y: -84}
+        - {x: -31.36731, y: -101}
+        - {x: 36.63269, y: -101}
+        - {x: 114.63269, y: -39}
+        - {x: 114.63269, y: 16}
+        - {x: 103.63269, y: 94}
+      - - {x: -114.36731, y: -28}
+        - {x: -111.36731, y: -27}
+        - {x: -111.36731, y: -15}
+        - {x: -113.36731, y: -13}
+        - {x: -114.36731, y: -13}
+    - name: Red-Socks-Animated_5
+      rect:
+        serializedVersion: 2
+        x: 4283
+        y: 0
+        width: 857
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.61963, y: 101}
+        - {x: -72.61963, y: 19}
+        - {x: -113.61963, y: -23}
+        - {x: -113.61963, y: -65}
+        - {x: -89.61963, y: -85}
+        - {x: -30.619629, y: -101}
+        - {x: 40.38037, y: -101}
+        - {x: 115.38037, y: -57}
+        - {x: 115.38037, y: 19}
+        - {x: 97.38037, y: 101}
+      - - {x: -112.61963, y: -10}
+        - {x: -113.61963, y: -10}
+        - {x: -113.61963, y: -31}
+        - {x: -110.61963, y: -30}
+        - {x: -109.61963, y: -27}
+        - {x: -109.61963, y: -11}
+    - name: Red-Socks-Animated_6
+      rect:
+        serializedVersion: 2
+        x: 5138
+        y: 0
+        width: 861
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 82.831665, y: 95}
+        - {x: 32.831665, y: 92}
+        - {x: 26.831665, y: 84}
+        - {x: 22.831665, y: 101}
+        - {x: -44.168335, y: 101}
+        - {x: -114.168335, y: -12}
+        - {x: -114.168335, y: -73}
+        - {x: -90.168335, y: -87}
+        - {x: -20.168335, y: -101}
+        - {x: 45.831665, y: -101}
+        - {x: 115.831665, y: -56}
+        - {x: 115.831665, y: 19}
+        - {x: 101.831665, y: 92}
+      - - {x: -114.168335, y: -8}
+        - {x: -114.168335, y: -33}
+        - {x: -111.168335, y: -32}
+        - {x: -110.168335, y: -31}
+        - {x: -110.168335, y: -12}
+        - {x: -111.168335, y: -8}
+    - name: Red-Socks-Animated_7
+      rect:
+        serializedVersion: 2
+        x: 5997
+        y: 0
+        width: 857
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.34485, y: 101}
+        - {x: 33.34485, y: 101}
+        - {x: 27.344849, y: 89}
+        - {x: 19.344849, y: 101}
+        - {x: -39.65515, y: 101}
+        - {x: -48.65515, y: 100}
+        - {x: -109.65515, y: -13}
+        - {x: -113.65515, y: -21}
+        - {x: -113.65515, y: -100}
+        - {x: -111.65515, y: -101}
+        - {x: 57.34485, y: -101}
+        - {x: 115.34485, y: -45}
+        - {x: 115.34485, y: 20}
+        - {x: 99.34485, y: 92}
+      - - {x: -113.65515, y: -9}
+        - {x: -113.65515, y: -32}
+        - {x: -109.65515, y: -32}
+        - {x: -109.65515, y: -9}
+    - name: Red-Socks-Animated_8
+      rect:
+        serializedVersion: 2
+        x: 6856
+        y: 0
+        width: 856
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42.358032, y: 101}
+        - {x: 27.358032, y: 101}
+        - {x: 27.358032, y: 85}
+        - {x: 29.358032, y: 42}
+        - {x: 23.358032, y: 94}
+        - {x: 20.358032, y: 101}
+        - {x: -38.641968, y: 101}
+        - {x: -47.641968, y: 72}
+        - {x: -113.64197, y: -29}
+        - {x: -113.64197, y: -59}
+        - {x: -107.64197, y: -78}
+        - {x: -52.641968, y: -101}
+        - {x: 45.358032, y: -101}
+        - {x: 115.35803, y: -70}
+        - {x: 115.35803, y: 41}
+        - {x: 102.35803, y: 96}
+      - - {x: -113.64197, y: -30}
+        - {x: -110.64197, y: -29}
+        - {x: -110.64197, y: -13}
+        - {x: -112.64197, y: -11}
+        - {x: -113.64197, y: -11}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

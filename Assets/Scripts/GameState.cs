@@ -10,12 +10,12 @@ public enum BattleResult
 }
 
 
-public sealed class GameState : MonoBehaviour 
+public sealed class GameState : MonoBehaviour
 {
 
 	public int STLLambsScore;
 	public int SFPandasScore;
-    public Dictionary<string, string> battleResults;
+    public Dictionary<string, string> battleResults = new Dictionary<string, string>();
 
     public static GameState instance;
 

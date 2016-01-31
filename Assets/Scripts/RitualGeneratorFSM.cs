@@ -8,7 +8,7 @@ public class RitualGeneratorFSM
 	// Tweak these values to control the generation of rituals
 	const int summonRitualCount = 5;
 	const int summonRitualMinInteractions = 2;
-	const int summonRitualMaxInteractions = 4;
+	const int summonRitualMaxInteractions = 3;
 	const int dudRitualCount = 0;
 	const int dudRitualMinInteractions = 2;
 	const int dudRitualMaxInteractions = 6;

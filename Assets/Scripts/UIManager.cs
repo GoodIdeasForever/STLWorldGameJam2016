@@ -49,7 +49,8 @@ public enum Summon
     C,
     U,
     S,
-    A
+    A,
+    NONE
 }
 
 public class UIManager : MonoBehaviour {
@@ -153,7 +154,7 @@ public class UIManager : MonoBehaviour {
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            DisplaySummonBattle((Summon)Random.Range(0, 5), (Summon)Random.Range(0, 5));
+            DisplaySummonBattle((Summon)Random.Range(0, 6), (Summon)Random.Range(0, 6));
         }
     }
 
@@ -468,8 +469,10 @@ public class UIManager : MonoBehaviour {
             timeDelta += Time.deltaTime;
             yield return null;
         }
-        redSummonAnimations.PlayAnimation((int)redSummon);
-        blueSummonAnimations.PlayAnimation((int)blueSummon);
+        if (redSummon != Summon.NONE)
+            redSummonAnimations.PlayAnimation((int)redSummon);
+        if (blueSummon != Summon.NONE)
+            blueSummonAnimations.PlayAnimation((int)blueSummon);
     }
 
     IEnumerator DelayShowVSAnimation()

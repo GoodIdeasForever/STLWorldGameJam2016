@@ -57,6 +57,15 @@ public sealed class GameState : MonoBehaviour
         {
             return BattleResult.Draw;
         }
+        else if (redSummon == Summon.NONE)
+        {
+            return BattleResult.BlueVictory;
+        }
+        else if (redSummon == Summon.NONE)
+        {
+            return BattleResult.RedVictory;
+        }
+
         string redDefeats;
         if(battleResults.TryGetValue(redSummon.ToString(), out redDefeats))
         {

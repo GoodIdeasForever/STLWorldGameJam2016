@@ -1,13 +1,36 @@
 fileFormatVersion: 2
-guid: 08765c919532c4d9fb2732f46879384b
-timeCreated: 1454265505
+guid: 419dd17bd6cf042bab05e7e834ffb24c
+timeCreated: 1454268669
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: win-animation-red_0
+    21300002: win-animation-red_1
+    21300004: win-animation-red_2
+    21300006: win-animation-red_3
+    21300008: win-animation-red_4
+    21300010: win-animation-red_5
+    21300012: win-animation-red_6
+    21300014: win-animation-red_7
+    21300016: win-animation-red_8
+    21300018: win-animation-red_9
+    21300020: win-animation-red_10
+    21300022: win-animation-red_11
+    21300024: win-animation-red_12
+    21300026: win-animation-red_13
+    21300028: win-animation-red_14
+    21300030: win-animation-red_15
+    21300032: win-animation-red_16
+    21300034: win-animation-red_17
+    21300036: win-animation-red_18
+    21300038: win-animation-red_19
+    21300040: win-animation-red_20
+    21300042: win-animation-red_21
+    21300044: win-animation-red_22
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -30,7 +53,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: 16
+    aniso: 1
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -49,7 +72,456 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: win-animation-red_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1836
+        width: 918.3333
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 114.418884}
+        - {x: -132, y: 114.418884}
+        - {x: -171, y: 107.418884}
+        - {x: -171, y: 11.418884}
+        - {x: -162, y: -38.581116}
+        - {x: 7, y: -38.581116}
+        - {x: 19, y: -26.581116}
+        - {x: 19, y: 103.418884}
+    - name: win-animation-red_1
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1836
+        width: 918.3333
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93.79056, y: 114.418884}
+        - {x: -140.79056, y: 107.418884}
+        - {x: -140.79056, y: 45.418884}
+        - {x: -114.79056, y: -37.581116}
+        - {x: -112.79056, y: -39.581116}
+        - {x: 50.209442, y: -39.581116}
+        - {x: 50.209442, y: 106.418884}
+        - {x: 23.209442, y: 114.418884}
+    - name: win-animation-red_2
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1836
+        width: 918.3333
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58.418884, y: 114.418884}
+        - {x: -60.581116, y: 114.418884}
+        - {x: -110.581116, y: 99.418884}
+        - {x: -110.581116, y: 13.418884}
+        - {x: -89.581116, y: -39.581116}
+        - {x: 16.418884, y: -39.581116}
+        - {x: 22.418884, y: -36.581116}
+        - {x: 81.418884, y: -36.581116}
+        - {x: 81.418884, y: 101.418884}
+        - {x: 75.418884, y: 108.418884}
+    - name: win-animation-red_3
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 1836
+        width: 918.3333
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42.628296, y: 114.418884}
+        - {x: -12.371704, y: 114.418884}
+        - {x: -78.371704, y: 101.418884}
+        - {x: -80.371704, y: 92.418884}
+        - {x: -80.371704, y: 16.418884}
+        - {x: -72.371704, y: -40.581116}
+        - {x: 112.628296, y: -40.581116}
+        - {x: 112.628296, y: 101.418884}
+        - {x: 106.628296, y: 103.418884}
+    - name: win-animation-red_4
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 1836
+        width: 918.3333
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99.33777, y: 114.418884}
+        - {x: -0.66223145, y: 114.418884}
+        - {x: -49.66223, y: 102.418884}
+        - {x: -49.66223, y: 10.418884}
+        - {x: -15.662231, y: -40.581116}
+        - {x: 120.33777, y: -40.581116}
+        - {x: 143.33777, y: -30.581116}
+        - {x: 143.33777, y: 106.418884}
+    - name: win-animation-red_5
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 1836
+        width: 918.3333
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54.04712, y: 114.418884}
+        - {x: -19.95288, y: 99.418884}
+        - {x: -19.95288, y: 56.418884}
+        - {x: 12.047119, y: -39.581116}
+        - {x: 15.047119, y: -40.581116}
+        - {x: 124.04712, y: -40.581116}
+        - {x: 171.04712, y: -38.581116}
+        - {x: 171.04712, y: 107.418884}
+        - {x: 135.04712, y: 114.418884}
+    - name: win-animation-red_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1224
+        width: 918.3333
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 91.44589}
+        - {x: -116, y: 91.44589}
+        - {x: -171, y: 74.44589}
+        - {x: -171, y: 13.445892}
+        - {x: -147, y: -64.55411}
+        - {x: 15, y: -64.55411}
+        - {x: 20, y: -46.554108}
+        - {x: 20, y: 81.44589}
+    - name: win-animation-red_7
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1224
+        width: 918.3333
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73.79056, y: 91.44589}
+        - {x: -140.79056, y: 77.44589}
+        - {x: -141.79056, y: 72.44589}
+        - {x: -141.79056, y: 22.445892}
+        - {x: -112.79056, y: -64.55411}
+        - {x: 51.209442, y: -64.55411}
+        - {x: 51.209442, y: 81.44589}
+        - {x: -14.790558, y: 91.44589}
+    - name: win-animation-red_8
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1224
+        width: 918.3333
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 74.418884, y: -59.554108}
+        - {x: 82.418884, y: -45.554108}
+        - {x: 82.418884, y: 78.44589}
+        - {x: 35.418884, y: 91.44589}
+        - {x: -36.581116, y: 91.44589}
+        - {x: -110.581116, y: 79.44589}
+        - {x: -110.581116, y: 17.445892}
+        - {x: -81.581116, y: -64.55411}
+        - {x: -45.581116, y: -64.55411}
+        - {x: -41.581116, y: -56.554108}
+        - {x: -35.581116, y: -64.55411}
+        - {x: 70.418884, y: -64.55411}
+    - name: win-animation-red_9
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 1224
+        width: 918.3333
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.628296, y: 91.44589}
+        - {x: -41.371704, y: 91.44589}
+        - {x: -80.371704, y: 82.44589}
+        - {x: -80.371704, y: 24.445892}
+        - {x: -61.371704, y: -64.55411}
+        - {x: 96.628296, y: -64.55411}
+        - {x: 112.628296, y: -56.554108}
+        - {x: 112.628296, y: 79.44589}
+    - name: win-animation-red_10
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 1224
+        width: 918.3333
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.33777, y: 91.44589}
+        - {x: -48.66223, y: 77.44589}
+        - {x: -49.66223, y: 75.44589}
+        - {x: -49.66223, y: 9.445892}
+        - {x: -21.662231, y: -64.55411}
+        - {x: 135.33777, y: -64.55411}
+        - {x: 143.33777, y: -56.554108}
+        - {x: 143.33777, y: 80.44589}
+        - {x: 93.33777, y: 91.44589}
+    - name: win-animation-red_11
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 1224
+        width: 918.3333
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.04712, y: 91.44589}
+        - {x: -19.95288, y: 75.44589}
+        - {x: -19.95288, y: 32.445892}
+        - {x: 13.047119, y: -64.55411}
+        - {x: 141.04712, y: -64.55411}
+        - {x: 171.04712, y: -59.554108}
+        - {x: 171.04712, y: 82.44589}
+        - {x: 136.04712, y: 91.44589}
+    - name: win-animation-red_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 612
+        width: 918.3333
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 66.472946}
+        - {x: -111, y: 66.472946}
+        - {x: -171, y: 48.472946}
+        - {x: -171, y: -12.527054}
+        - {x: -148, y: -89.527054}
+        - {x: 7, y: -89.527054}
+        - {x: 20, y: -77.527054}
+        - {x: 20, y: 52.472946}
+    - name: win-animation-red_13
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 612
+        width: 918.3333
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -90.79056, y: 66.472946}
+        - {x: -141.79056, y: 51.472946}
+        - {x: -141.79056, y: 3.4729462}
+        - {x: -108.79056, y: -89.527054}
+        - {x: 47.209442, y: -89.527054}
+        - {x: 51.209442, y: -88.527054}
+        - {x: 51.209442, y: 58.472946}
+        - {x: 9.209442, y: 66.472946}
+    - name: win-animation-red_14
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 612
+        width: 918.3333
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.418884, y: 66.472946}
+        - {x: -55.581116, y: 66.472946}
+        - {x: -110.581116, y: 51.472946}
+        - {x: -110.581116, y: -22.527054}
+        - {x: -87.581116, y: -89.527054}
+        - {x: -24.581116, y: -89.527054}
+        - {x: -0.5811157, y: -80.527054}
+        - {x: 62.418884, y: -86.527054}
+        - {x: 82.418884, y: -78.527054}
+        - {x: 82.418884, y: 56.472946}
+    - name: win-animation-red_15
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 612
+        width: 918.3333
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.628296, y: 66.472946}
+        - {x: -31.371704, y: 66.472946}
+        - {x: -80.371704, y: 51.472946}
+        - {x: -80.371704, y: 2.4729462}
+        - {x: -61.371704, y: -89.527054}
+        - {x: 101.628296, y: -89.527054}
+        - {x: 112.628296, y: -82.527054}
+        - {x: 112.628296, y: 53.472946}
+    - name: win-animation-red_16
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 612
+        width: 918.3333
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.66223, y: 66.472946}
+        - {x: -49.66223, y: 56.472946}
+        - {x: -49.66223, y: -48.527054}
+        - {x: -23.662231, y: -89.527054}
+        - {x: 81.33777, y: -89.527054}
+        - {x: 123.33777, y: -86.527054}
+        - {x: 143.33777, y: -82.527054}
+        - {x: 143.33777, y: 66.472946}
+    - name: win-animation-red_17
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 612
+        width: 918.3333
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.952881, y: 66.472946}
+        - {x: -19.95288, y: 65.472946}
+        - {x: -19.95288, y: -16.527054}
+        - {x: -1.9528809, y: -89.527054}
+        - {x: 171.04712, y: -89.527054}
+        - {x: 171.04712, y: 56.472946}
+        - {x: 147.04712, y: 66.472946}
+    - name: win-animation-red_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 918.3333
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -171, y: 41}
+        - {x: -171, y: -44}
+        - {x: -158, y: -114}
+        - {x: 20, y: -114}
+        - {x: 20, y: 41}
+    - name: win-animation-red_19
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 0
+        width: 918.3333
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.209442, y: -111}
+        - {x: 51.209442, y: 27}
+        - {x: 1.2094421, y: 41}
+        - {x: -69.79056, y: 41}
+        - {x: -140.79056, y: 26}
+        - {x: -141.79056, y: 21}
+        - {x: -141.79056, y: -27}
+        - {x: -113.79056, y: -114}
+        - {x: 50.209442, y: -114}
+    - name: win-animation-red_20
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 0
+        width: 918.3333
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 82.418884, y: 41}
+        - {x: -59.581116, y: 41}
+        - {x: -110.581116, y: 26}
+        - {x: -110.581116, y: -31}
+        - {x: -78.581116, y: -114}
+        - {x: 82.418884, y: -114}
+    - name: win-animation-red_21
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 0
+        width: 918.3333
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.628296, y: -102}
+        - {x: 28.628296, y: -93}
+        - {x: 83.628296, y: -114}
+        - {x: 86.628296, y: -114}
+        - {x: 112.628296, y: -110}
+        - {x: 112.628296, y: 37}
+        - {x: 68.628296, y: 40}
+        - {x: -79.371704, y: 40}
+        - {x: -79.371704, y: -71}
+        - {x: -74.371704, y: -114}
+        - {x: -13.371704, y: -114}
+        - {x: -12.371704, y: -112}
+        - {x: -10.371704, y: -93}
+        - {x: -1.3717041, y: -96}
+    - name: win-animation-red_22
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 0
+        width: 918.3333
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.66223, y: 40}
+        - {x: -48.66223, y: 29}
+        - {x: -48.66223, y: -39}
+        - {x: -28.662231, y: -114}
+        - {x: 136.33777, y: -114}
+        - {x: 142.33777, y: -96}
+        - {x: 142.33777, y: 33}
+        - {x: 140.33777, y: 40}
     outline: []
   spritePackingTag: 
   userData: 

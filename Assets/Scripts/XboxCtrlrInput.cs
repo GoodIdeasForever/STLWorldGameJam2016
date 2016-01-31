@@ -2,6 +2,8 @@
 using XInputDotNetPure;
 using System;
 
+// Code imported from https://github.com/360Controller/360Controller
+
 namespace XboxCtrlrInput
 {
 	

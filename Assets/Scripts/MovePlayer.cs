@@ -22,32 +22,45 @@ public class MovePlayer : MonoBehaviour
         if (!didQueryNumCtrls)
         {
             didQueryNumCtrls = true;
- 			int queriedNumberOfCtrlrs = XCI.GetNumPluggedCtrlrs();
-            Debug.Log(String.Format("Num plugged in controllers = {0}", queriedNumberOfCtrlrs));
-			if(queriedNumberOfCtrlrs == 1)
-			{
-				Debug.Log("Only " + queriedNumberOfCtrlrs + " Xbox controller plugged in.");
-			}
-			else if (queriedNumberOfCtrlrs == 0)
-			{
-				Debug.Log("No Xbox controllers plugged in!");
-			}
-			else
-			{
-				Debug.Log(queriedNumberOfCtrlrs + " Xbox controllers plugged in.");
-			}
+ 			if(!checkEnoughControllersPresent())
+             {
+                 GameState.Instance.noGameControllersPresent();
+             }
         }
+        UIManager.Instance.acceptingInput = true;
         XCI.DEBUG_LogControllerNames();
 	}
-	
+    
+    private bool checkEnoughControllersPresent()
+    {
+        bool rslt = false;
+        int queriedNumberOfCtrlrs = XCI.GetNumPluggedCtrlrs();
+        Debug.Log(String.Format("Num plugged in controllers = {0}", queriedNumberOfCtrlrs));
+		if(queriedNumberOfCtrlrs == 1)
+		{
+            Debug.Log("Only " + queriedNumberOfCtrlrs + " Xbox controller plugged in.");
+            rslt = true; //TODO: Testing only delete
+		}
+		else if (queriedNumberOfCtrlrs == 0)
+		{
+		  Debug.Log("No Xbox controllers plugged in!");
+        }
+		else
+		{
+            Debug.Log(queriedNumberOfCtrlrs + " Xbox controllers plugged in.");
+            rslt = true;
+		}
+        return rslt;
+    }
+    
 	// Update is called once per frame
 	void Update () 
     {
         XboxButton btn = getButtonSelection();
         if(btn != XboxButton.NONE)
         {
-            Debug.Log("Blah");
             bool doPlaySound = true;
+            Debug.Log("Determing which controller");
             switch(controller)
             {
                 case XboxController.First:
@@ -57,6 +70,7 @@ public class MovePlayer : MonoBehaviour
                     curPlayer = Player.Blue;
                     break;
             }
+            Debug.Log(String.Format("Getting button action for button={0}", btn));
             switch (btn)
             {
                 case XboxButton.A:
@@ -78,14 +92,12 @@ public class MovePlayer : MonoBehaviour
                 case XboxButton.DPadLeft:
                     Debug.Log(String.Format("Got left pad for controller {0}. Getting Ritual", controller));
                     curRitual = UIManager.Instance.SelectRitualObject(Direction.Left, curPlayer);
+                    Debug.Log(String.Format("controller {0} ritual {1}", controller, curRitual));
                     break;
                 case XboxButton.DPadRight:
                     Debug.Log(String.Format("Got right pad for controller {0}. Getting Ritual", controller));
-                    Debug.Log(String.Format("instance={0}", UIManager.Instance));
                     curRitual = UIManager.Instance.SelectRitualObject(Direction.Right, curPlayer);
-                    Debug.Log(String.Format("curRitual={0}, curPlayer={1}", curRitual, curPlayer));
-                    curRitual = RitualObjectId.Jersey;
-                    Debug.Log(String.Format("curRitual={0}, curPlayer={1}", curRitual, curPlayer));
+                    Debug.Log(String.Format("controller {0} ritual {1}", controller, curRitual));
                     break;
                 default:
                     Debug.Log(String.Format("Got button {0} from controller {1} however {2} it is unmapped", btn, controller, btn));

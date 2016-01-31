@@ -36,4 +36,9 @@ public sealed class GameState : MonoBehaviour
     {
 	
 	}
+    
+    public void noGameControllersPresent()
+    {
+        //TODO: Add in function callback
+    }
 }

@@ -9,6 +9,8 @@ public class AnimationStateController : MonoBehaviour {
     public void PlayAnimation(int animId)
     {
         Clear();
+        if (animations.Length <= animId)
+            Debug.Log("wut");
         animations[animId].SetActive(true);
         if (animId < audio.Length)
         {

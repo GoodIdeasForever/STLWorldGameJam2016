@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public enum BattleResult
 {
@@ -22,6 +23,10 @@ public sealed class GameState : MonoBehaviour
     public RitualGeneratorFSM redPlayerRitualGenerator = new RitualGeneratorFSM();
     public RitualGeneratorFSM bluePlayerRitualGenerator = new RitualGeneratorFSM();
 
+    public float roundTime = 15f;
+    float roundDelta = 0f;
+    public Text timer;
+
     void Awake()
     {
         instance = this;
@@ -33,6 +38,22 @@ public sealed class GameState : MonoBehaviour
 
         redPlayerRitualGenerator.InitializeRituals(Random.Range(int.MinValue, int.MaxValue));
         bluePlayerRitualGenerator.InitializeRituals(Random.Range(int.MinValue, int.MaxValue));
+    }
+
+    void Update()
+    {
+        if (UIManager.Instance.acceptingInput)
+            roundDelta += Time.deltaTime;
+        if (roundDelta >= roundTime)
+        {
+
+            UIManager.Instance.DisplaySummonBattle(redPlayerRitualGenerator.lastCompletedRitual == -1 ? Summon.NONE : (Summon)redPlayerRitualGenerator.lastCompletedRitual,
+                bluePlayerRitualGenerator.lastCompletedRitual == -1 ? Summon.NONE : (Summon)bluePlayerRitualGenerator.lastCompletedRitual);
+            bluePlayerRitualGenerator.lastCompletedRitual = -1;
+            redPlayerRitualGenerator.lastCompletedRitual = -1;
+            roundDelta = 0f;
+        }
+        timer.text = ((int)(roundTime - roundDelta)).ToString();
     }
 
     public void noGameControllersPresent()
@@ -50,7 +71,7 @@ public sealed class GameState : MonoBehaviour
         {
             return BattleResult.BlueVictory;
         }
-        else if (redSummon == Summon.NONE)
+        else if (blueSummon == Summon.NONE)
         {
             return BattleResult.RedVictory;
         }

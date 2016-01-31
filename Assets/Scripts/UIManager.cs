@@ -535,6 +535,23 @@ public class UIManager : MonoBehaviour {
         attackAnimations.Clear();
         versusAnimation.gameObject.SetActive(false);
         battleResultAnimations.Clear();
-        tvCanvasScaler.BeginScaleIn();
+        if (GameState.instance.SFPandasScore >= 3 || GameState.instance.STLLambsScore >= 3)
+        {
+
+            battleResultAnimations.PlayAnimation((int)(GameState.instance.SFPandasScore >= 3 ? BattleResult.RedVictory : BattleResult.BlueVictory));
+            StartCoroutine(DelayLoadMainMenuInSeconds(3f));
+        }
+        else
+            tvCanvasScaler.BeginScaleIn();
+    }
+    IEnumerator DelayLoadMainMenuInSeconds(float seconds)
+    {
+        float delta = 0f;
+        while (delta < seconds)
+        {
+            yield return null;
+            delta = Time.deltaTime;
+        }
+        Application.LoadLevel("TitleScene");
     }
 }

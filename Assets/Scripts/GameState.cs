@@ -35,17 +35,6 @@ public sealed class GameState : MonoBehaviour
         bluePlayerRitualGenerator.InitializeRituals(Random.Range(int.MinValue, int.MaxValue));
     }
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () 
-    {
-	
-	}
-    
     public void noGameControllersPresent()
     {
         //TODO: Add in function callback
@@ -71,10 +60,12 @@ public sealed class GameState : MonoBehaviour
         {
             if (redDefeats.Contains(blueSummon.ToString()))
             {
+                ++SFPandasScore;
                 return BattleResult.RedVictory;
             }
             else
             {
+                ++STLLambsScore;
                 return BattleResult.BlueVictory;
             }
         }

@@ -1,13 +1,35 @@
 fileFormatVersion: 2
-guid: cb6832b2f5b4247feaf154ab95b4ef5c
-timeCreated: 1454265517
+guid: ec2c47f408d0b459f93edfb16bfc6342
+timeCreated: 1454269883
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: attack-skunk_0
+    21300002: attack-skunk_1
+    21300004: attack-skunk_2
+    21300006: attack-skunk_3
+    21300008: attack-skunk_4
+    21300010: attack-skunk_5
+    21300012: attack-skunk_6
+    21300014: attack-skunk_7
+    21300016: attack-skunk_8
+    21300018: attack-skunk_9
+    21300020: attack-skunk_10
+    21300022: attack-skunk_11
+    21300024: attack-skunk_12
+    21300026: attack-skunk_13
+    21300028: attack-skunk_14
+    21300030: attack-skunk_15
+    21300032: attack-skunk_16
+    21300034: attack-skunk_17
+    21300036: attack-skunk_18
+    21300038: attack-skunk_19
+    21300040: attack-skunk_20
+    21300042: attack-skunk_21
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -30,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: 16
+    aniso: 1
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -49,7 +71,337 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: attack-skunk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6790
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137, y: 93.95996}
+        - {x: -137, y: -93.04004}
+        - {x: 137, y: -93.04004}
+        - {x: 137, y: 93.95996}
+    - name: attack-skunk_1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 6790
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137, y: 93.95996}
+        - {x: -137, y: -93.04004}
+        - {x: 137, y: -93.04004}
+        - {x: 137, y: 93.95996}
+    - name: attack-skunk_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6111
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137, y: 93.91394}
+        - {x: -137, y: -93.08606}
+        - {x: 137, y: -93.08606}
+        - {x: 137, y: 93.91394}
+    - name: attack-skunk_3
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 6111
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137, y: 93.91394}
+        - {x: -137, y: -93.08606}
+        - {x: 137, y: -93.08606}
+        - {x: 137, y: 93.91394}
+    - name: attack-skunk_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5432
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137, y: 93.86792}
+        - {x: -137, y: -93.13208}
+        - {x: 137, y: -93.13208}
+        - {x: 137, y: 93.86792}
+    - name: attack-skunk_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 5432
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137, y: 93.86792}
+        - {x: -137, y: -93.13208}
+        - {x: 137, y: -93.13208}
+        - {x: 137, y: 93.86792}
+    - name: attack-skunk_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4753
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137, y: 93.8219}
+        - {x: -137, y: -93.1781}
+        - {x: 137, y: -93.1781}
+        - {x: 137, y: 93.8219}
+    - name: attack-skunk_7
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 4753
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137, y: 93.8219}
+        - {x: -137, y: -93.1781}
+        - {x: 137, y: -93.1781}
+        - {x: 137, y: 93.8219}
+    - name: attack-skunk_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4074
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137, y: 93.776}
+        - {x: -137, y: -93.224}
+        - {x: 137, y: -93.224}
+        - {x: 137, y: 93.776}
+    - name: attack-skunk_9
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 4074
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137, y: 93.776}
+        - {x: -137, y: -93.224}
+        - {x: 137, y: -93.224}
+        - {x: 137, y: 93.776}
+    - name: attack-skunk_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3395
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137, y: 93.72998}
+        - {x: -137, y: -93.27002}
+        - {x: 137, y: -93.27002}
+        - {x: 137, y: 93.72998}
+    - name: attack-skunk_11
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3395
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137, y: 93.72998}
+        - {x: -137, y: -93.27002}
+        - {x: 137, y: -93.27002}
+        - {x: 137, y: 93.72998}
+    - name: attack-skunk_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2716
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137, y: 93.68396}
+        - {x: -137, y: -93.31604}
+        - {x: 137, y: -93.31604}
+        - {x: 137, y: 93.68396}
+    - name: attack-skunk_13
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2716
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137, y: 93.68396}
+        - {x: -137, y: -93.31604}
+        - {x: 137, y: -93.31604}
+        - {x: 137, y: 93.68396}
+    - name: attack-skunk_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2037
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137, y: 93.638}
+        - {x: -137, y: -93.362}
+        - {x: 137, y: -93.362}
+        - {x: 137, y: 93.638}
+    - name: attack-skunk_15
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2037
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137, y: 93.638}
+        - {x: -137, y: -93.362}
+        - {x: 137, y: -93.362}
+        - {x: 137, y: 93.638}
+    - name: attack-skunk_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1358
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137, y: 93.59198}
+        - {x: -137, y: -93.40802}
+        - {x: 137, y: -93.40802}
+        - {x: 137, y: 93.59198}
+    - name: attack-skunk_17
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1358
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137, y: 93.59198}
+        - {x: -137, y: -93.40802}
+        - {x: 137, y: -93.40802}
+        - {x: 137, y: 93.59198}
+    - name: attack-skunk_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 679
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137, y: 93.54599}
+        - {x: -137, y: -93.45401}
+        - {x: 137, y: -93.45401}
+        - {x: 137, y: 93.54599}
+    - name: attack-skunk_19
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 679
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137, y: 93.54599}
+        - {x: -137, y: -93.45401}
+        - {x: 137, y: -93.45401}
+        - {x: 137, y: 93.54599}
+    - name: attack-skunk_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137, y: 93.5}
+        - {x: -137, y: -93.5}
+        - {x: 137, y: -93.5}
+        - {x: 137, y: 93.5}
+    - name: attack-skunk_21
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -137, y: 93.5}
+        - {x: -137, y: -93.5}
+        - {x: 137, y: -93.5}
+        - {x: 137, y: 93.5}
     outline: []
   spritePackingTag: 
   userData: 

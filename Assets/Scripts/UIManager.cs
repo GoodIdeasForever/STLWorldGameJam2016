@@ -70,6 +70,18 @@ public class UIManager : MonoBehaviour {
     public List<RectTransform> redsocksAnimations;
 
     public ScaleToFullScreen tvCanvasScaler;
+    public RitualObject bluejersey;
+    public RitualObject bluebobbleHead;
+    public RitualObject bluepizzaBox;
+    public RitualObject bluebuddha;
+    public RitualObject bluefoamFinger;
+    public RitualObject bluesocks;
+    public RitualObject redjersey;
+    public RitualObject redbobbleHead;
+    public RitualObject redpizzaBox;
+    public RitualObject redbuddha;
+    public RitualObject redfoamFinger;
+    public RitualObject redsocks;
 
     RitualObjectId currentSelectionRed;
     RitualObjectId currentSelectionBlue;
@@ -111,7 +123,20 @@ public class UIManager : MonoBehaviour {
         }
     }
 	
-	public RitualObjectId SelectRitualObject(Direction direction, Player play)
+    // For debug testing
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            SelectRitualObject(Direction.Right, Player.Red);
+        }
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            SelectRitualObject(Direction.Left, Player.Red);
+        }
+    }
+
+    public RitualObjectId SelectRitualObject(Direction direction, Player play)
     {
         RitualObjectId tempSelection = RitualObjectId.NONE;
         if (play == Player.Red && acceptingInput)
@@ -210,6 +235,13 @@ public class UIManager : MonoBehaviour {
     {
         if (player == Player.Red)
         {
+            redjersey.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            redbobbleHead.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            redpizzaBox.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            redbuddha.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            redfoamFinger.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            redsocks.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            /*
             foreach (var canvas in redjerseyAnimations)
             {
                 canvas.gameObject.SetActive(false);
@@ -234,10 +266,18 @@ public class UIManager : MonoBehaviour {
             {
                 canvas.gameObject.SetActive(false);
             }
+            */
             currentSelectionRed = RitualObjectId.NONE;
         }
         else if (player == Player.Blue)
         {
+            bluejersey.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            bluebobbleHead.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            bluepizzaBox.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            bluebuddha.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            bluefoamFinger.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            bluesocks.PlayObjectInteraction(RitualObjAnimation.Deselected);
+            /*
             foreach (var canvas in bluejerseyAnimations)
             {
                 canvas.gameObject.SetActive(false);
@@ -262,6 +302,7 @@ public class UIManager : MonoBehaviour {
             {
                 canvas.gameObject.SetActive(false);
             }
+            */
             currentSelectionBlue = RitualObjectId.NONE;
         }
     }
@@ -273,18 +314,19 @@ public class UIManager : MonoBehaviour {
             switch(ritualObj)
             {
                 case RitualObjectId.BobbleHead:
-                    foreach (var ui in redbobbleHeadAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    redbobbleHeadAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in redbobbleHeadAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //redbobbleHeadAnimations[(int)anim].gameObject.SetActive(true);
+                    redbobbleHead.PlayObjectInteraction(anim);
                     break;
                 case RitualObjectId.Buddha:
-                    foreach (var ui in redbuddhaAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    redbuddhaAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in redbuddhaAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //redbuddhaAnimations[(int)anim].gameObject.SetActive(true);
                     break;
                 case RitualObjectId.FoamFinger:
                     foreach (var ui in redfoamFingerAnimations)

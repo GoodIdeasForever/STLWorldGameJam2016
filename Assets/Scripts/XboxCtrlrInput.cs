@@ -1265,7 +1265,6 @@ namespace XboxCtrlrInput
 			
 			if(OnMac())
 			{
-                // Debug.Log(String.Format("OnMac btn={0}   sJoyCode={1}     ctrlNum={2}", btn, sJoyCode, ctrlrNum));
 				switch(btn)
 				{
 					case XboxButton.A: 				sKeyCode = "16"; break;
@@ -1323,17 +1322,8 @@ namespace XboxCtrlrInput
             
 			if(invalidCode)
 			{
-                if(ctrlrNum == 2)
-                {
-                    Debug.Log(String.Format("invalidCode={0}    r={1}", invalidCode, r));
-                }
 				r = "";
 			}
-            else if (ctrlrNum == 2)
-            {
-                // Debug.Log("CtrlNum == 2 and not invalid code");
-            }
-			
 			return r;
 		}
 		

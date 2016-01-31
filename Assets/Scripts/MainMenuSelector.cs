@@ -137,6 +137,8 @@ public class MainMenuSelector : MonoBehaviour
                     case 2:
                         SceneLoader.Instance.LoadNewScene("CreditsScene");
                         break;
+                    case 3:
+                       SceneLoader.Instance.ExitGame(); 
                     default:
                         Debug.Log(String.Format("count={0}", count));
                         break;

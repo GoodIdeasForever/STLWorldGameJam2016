@@ -37,7 +37,8 @@ namespace XboxCtrlrInput
 		DPadUp,
 		DPadDown,
 		DPadLeft,
-		DPadRight
+		DPadRight,
+        NONE
 	}
 	
 	/// <summary>
@@ -1260,7 +1261,6 @@ namespace XboxCtrlrInput
 			else
 			{
 				sJoyCode = " " + ctrlrNum.ToString();
-                // sJoyCode = "";
 			}
 			
 			if(OnMac())

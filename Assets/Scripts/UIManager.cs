@@ -45,7 +45,7 @@ public enum ActionButton
 
 public class UIManager : MonoBehaviour {
 
-    public static UIManager instance;
+    private static UIManager instance;
 
     public List<RectTransform> bluejerseyAnimations;
     public List<RectTransform> bluebobbleHeadAnimations;
@@ -67,8 +67,20 @@ public class UIManager : MonoBehaviour {
 
     void Awake()
     {
+        if(instance == null)
+        {
+            instance = new UIManager();
+        }
         instance = this;
     } 
+    public static UIManager Instance {
+        get {
+            if(instance == null) {
+                instance = new UIManager();
+            }  
+            return instance;
+        }
+    }
 	
 	public RitualObjectId SelectRitualObject(Direction direction, Player play)
     {

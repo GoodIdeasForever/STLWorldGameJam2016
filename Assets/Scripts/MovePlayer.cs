@@ -60,7 +60,7 @@ public class MovePlayer : MonoBehaviour
         if(btn != XboxButton.NONE)
         {
             bool doPlaySound = true;
-            Debug.Log("Determing which controller");
+            Debug.Log(String.Format("Determing which controller {0}", controller));
             switch(controller)
             {
                 case XboxController.First:
@@ -132,6 +132,7 @@ public class MovePlayer : MonoBehaviour
     
     private XboxButton getButtonSelection()
     {
+        Debug.Log(String.Format("Controller = {0}", controller));
         foreach(XboxButton btn in registeredButtons)
         {
             if(XCI.GetButtonDown(btn, controller))

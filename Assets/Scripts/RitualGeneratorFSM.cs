@@ -24,7 +24,8 @@ public class RitualGeneratorFSM
 		public int ritualNumber; // 0..summonRitualCount-1 || 0..dudRitualCount-1
 	}
 
-	// Contains completed rituals
+    // Contains completed rituals
+    public int lastCompletedRitual = -1;
 	public List<RitualResult> completedRitualMessages = new List<RitualResult>();
 
 	public class CurrentRitualProgress
@@ -58,6 +59,7 @@ public class RitualGeneratorFSM
 	public void InitializeRituals(int randomSeed)
 	{
         completedRitualMessages.Clear();
+        lastCompletedRitual = -1;
 
         currentRitualProgress.isDud = true;
         currentRitualProgress.ritualNumber = -1;
@@ -142,8 +144,10 @@ public class RitualGeneratorFSM
 					result.ritualNumber = currentRitual.ritualNumber;
 					completedRitualMessages.Add(result);
 
-					// start working on another
-					currentInternalRitualIndex = -1;
+                    lastCompletedRitual = currentRitual.ritualNumber;
+
+                    // start working on another
+                    currentInternalRitualIndex = -1;
 				}
 				// We made progress, so return true
 				return true;

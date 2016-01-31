@@ -153,7 +153,7 @@ public class UIManager : MonoBehaviour {
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            DisplaySummonBattle((Summon)Random.Range(1, 5), (Summon)Random.Range(1, 5));
+            DisplaySummonBattle((Summon)Random.Range(0, 5), (Summon)Random.Range(0, 5));
         }
     }
 

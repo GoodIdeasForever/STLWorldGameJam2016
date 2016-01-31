@@ -98,6 +98,6 @@ public class ScaleToFullScreen : MonoBehaviour {
             yield return null;
             delta += Time.deltaTime;
         }
-        StartCoroutine(ScaleOut());
+        UIManager.Instance.acceptingInput = true;
     }
 }

@@ -81,6 +81,7 @@ public class UIManager : MonoBehaviour {
     public float hideVSGraphicDelay = 4f;
     public float showAttackGraphicDelay = 4.5f;
     public float showResultGrahicDelay = 6f;
+    public float resetTVCanvasDelay = 7f;
 
     public List<RectTransform> redSummonAnimations;
     public List<RectTransform> blueSummonAnimations;
@@ -374,6 +375,8 @@ public class UIManager : MonoBehaviour {
 
     public void DisplaySummonBattle(Summon redSummon, Summon blueSummon)
     {
+        acceptingInput = false;
+        tvCanvasScaler.BeginScaleIn();
         BattleResult result = GameState.instance.GetBattleResult(redSummon, blueSummon);
         StartCoroutine(DelayShowSummonAnimations(redSummon, blueSummon));
         StartCoroutine(DelayShowVSAnimation());
@@ -391,6 +394,8 @@ public class UIManager : MonoBehaviour {
             timeDelta += Time.deltaTime;
             yield return null;
         }
+        redSummonAnimations[(int)redSummon].gameObject.SetActive(true);
+        blueSummonAnimations[(int)blueSummon].gameObject.SetActive(true);
     }
 
     IEnumerator DelayShowVSAnimation()
@@ -401,6 +406,7 @@ public class UIManager : MonoBehaviour {
             timeDelta += Time.deltaTime;
             yield return null;
         }
+        versusAnimation.gameObject.SetActive(true);
     }
 
     IEnumerator DelayHideVSAnimation()
@@ -411,6 +417,7 @@ public class UIManager : MonoBehaviour {
             timeDelta += Time.deltaTime;
             yield return null;
         }
+        versusAnimation.gameObject.SetActive(false);
     }
 
     IEnumerator DelayShowAttackAnimation(Summon redSummon, Summon blueSummon, BattleResult result)
@@ -420,6 +427,10 @@ public class UIManager : MonoBehaviour {
         {
             timeDelta += Time.deltaTime;
             yield return null;
+        }
+        if (result != BattleResult.Draw)
+        {
+            attackAnimations[(int)(result == BattleResult.RedVictory ? redSummon : blueSummon)].gameObject.SetActive(true);
         }
     }
 
@@ -431,5 +442,34 @@ public class UIManager : MonoBehaviour {
             timeDelta += Time.deltaTime;
             yield return null;
         }
+        battleResultAnimations[(int)result].gameObject.SetActive(true);
+    }
+
+    IEnumerator DelayResetTVCanvas()
+    {
+        float timeDelta = 0f;
+        while (timeDelta < resetTVCanvasDelay)
+        {
+            timeDelta += Time.deltaTime;
+            yield return null;
+        }
+        foreach(var anim in redSummonAnimations)
+        {
+            anim.gameObject.SetActive(false);
+        }
+        foreach (var anim in blueSummonAnimations)
+        {
+            anim.gameObject.SetActive(false);
+        }
+        foreach (var anim in attackAnimations)
+        {
+            anim.gameObject.SetActive(false);
+        }
+        versusAnimation.gameObject.SetActive(false);
+        foreach (var anim in battleResultAnimations)
+        {
+            anim.gameObject.SetActive(false);
+        }
+        tvCanvasScaler.BeginScaleIn();
     }
 }

@@ -463,7 +463,7 @@ public class UIManager : MonoBehaviour {
             timeDelta += Time.deltaTime;
             yield return null;
         }
-        redSummonAnimations.PlayAnimation((int)redSummon]);
+        redSummonAnimations.PlayAnimation((int)redSummon);
         blueSummonAnimations.PlayAnimation((int)blueSummon);
     }
 

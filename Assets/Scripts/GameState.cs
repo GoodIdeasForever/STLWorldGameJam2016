@@ -19,6 +19,9 @@ public sealed class GameState : MonoBehaviour
 
     public static GameState instance;
 
+    public RitualGeneratorFSM redPlayerRitualGenerator = new RitualGeneratorFSM();
+    public RitualGeneratorFSM bluePlayerRitualGenerator = new RitualGeneratorFSM();
+
     void Awake()
     {
         instance = this;
@@ -27,6 +30,9 @@ public sealed class GameState : MonoBehaviour
         battleResults.Add("U", "DC");
         battleResults.Add("C", "DA");
         battleResults.Add("A", "SU");
+
+        redPlayerRitualGenerator.InitializeRituals(Random.Range(int.MinValue, int.MaxValue));
+        bluePlayerRitualGenerator.InitializeRituals(Random.Range(int.MinValue, int.MaxValue));
     }
 
 	// Use this for initialization

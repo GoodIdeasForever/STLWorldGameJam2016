@@ -8,8 +8,8 @@ public class RitualGeneratorFSM
 	// Tweak these values to control the generation of rituals
 	const int summonRitualCount = 5;
 	const int summonRitualMinInteractions = 2;
-	const int summonRitualMaxInteractions = 6;
-	const int dudRitualCount = 5;
+	const int summonRitualMaxInteractions = 4;
+	const int dudRitualCount = 0;
 	const int dudRitualMinInteractions = 2;
 	const int dudRitualMaxInteractions = 6;
 	const int objectCount = 6;
@@ -95,6 +95,8 @@ public class RitualGeneratorFSM
 				bool interactionConflicts = false;
 				do
 				{
+                    interactionConflicts = false;
+
 					objectToInteractWith = rng.Next(0, objectCount);
 					objectInteraction = rng.Next(0, objectInteractionCount);				
 					
@@ -112,6 +114,7 @@ public class RitualGeneratorFSM
 				currentRitual.objects.Add(objectToInteractWith);
 				currentRitual.interactions.Add(objectInteraction);
 			}
+            rituals.Add(currentRitual);
 		}
 	}
 
@@ -147,8 +150,10 @@ public class RitualGeneratorFSM
 			}
 			else
 			{
+                return false;
 				// Not the current ritual, cancel it
-				currentInternalRitualIndex = -1;
+                // dont' cancel rituals anymore,  you gotta finish it
+				//currentInternalRitualIndex = -1;
 			}
 		}
 

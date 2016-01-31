@@ -24,7 +24,7 @@ public class MovePlayer : MonoBehaviour
             didQueryNumCtrls = true;
  			if(!checkEnoughControllersPresent())
              {
-                 GameState.Instance.noGameControllersPresent();
+                 GameState.instance.noGameControllersPresent();
              }
         }
         UIManager.Instance.acceptingInput = true;

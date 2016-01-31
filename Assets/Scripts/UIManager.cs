@@ -43,6 +43,15 @@ public enum ActionButton
     Y
 }
 
+public enum Summon
+{
+    D,
+    C,
+    U,
+    S,
+    A
+}
+
 public class UIManager : MonoBehaviour {
 
     private static UIManager instance;
@@ -60,10 +69,24 @@ public class UIManager : MonoBehaviour {
     public List<RectTransform> redfoamFingerAnimations;
     public List<RectTransform> redsocksAnimations;
 
+    public ScaleToFullScreen tvCanvasScaler;
+
     RitualObjectId currentSelectionRed;
     RitualObjectId currentSelectionBlue;
 
     public bool acceptingInput { get; set; }
+
+    public float showSummonGrahicDelay = 2f;
+    public float showVSGraphicDelay = 3f;
+    public float hideVSGraphicDelay = 4f;
+    public float showAttackGraphicDelay = 4.5f;
+    public float showResultGrahicDelay = 6f;
+
+    public List<RectTransform> redSummonAnimations;
+    public List<RectTransform> blueSummonAnimations;
+    public List<RectTransform> attackAnimations;
+    public RectTransform versusAnimation;
+    public List<RectTransform> battleResultAnimations;
 
     void Awake()
     {
@@ -73,6 +96,12 @@ public class UIManager : MonoBehaviour {
         }
         instance = this;
     } 
+
+    void Start()
+    {
+        acceptingInput = true;
+    }
+
     public static UIManager Instance {
         get {
             if(instance == null) {
@@ -340,6 +369,67 @@ public class UIManager : MonoBehaviour {
                     break;
 
             }
+        }
+    }
+
+    public void DisplaySummonBattle(Summon redSummon, Summon blueSummon)
+    {
+        BattleResult result = GameState.instance.GetBattleResult(redSummon, blueSummon);
+        StartCoroutine(DelayShowSummonAnimations(redSummon, blueSummon));
+        StartCoroutine(DelayShowVSAnimation());
+        StartCoroutine(DelayHideVSAnimation());
+        StartCoroutine(DelayShowAttackAnimation(redSummon,blueSummon,result));
+        StartCoroutine(DelayShowResultAnimations(result));
+
+    }
+
+    IEnumerator DelayShowSummonAnimations(Summon redSummon, Summon blueSummon)
+    {
+        float timeDelta = 0f;
+        while (timeDelta < showSummonGrahicDelay)
+        {
+            timeDelta += Time.deltaTime;
+            yield return null;
+        }
+    }
+
+    IEnumerator DelayShowVSAnimation()
+    {
+        float timeDelta = 0f;
+        while (timeDelta < showVSGraphicDelay)
+        {
+            timeDelta += Time.deltaTime;
+            yield return null;
+        }
+    }
+
+    IEnumerator DelayHideVSAnimation()
+    {
+        float timeDelta = 0f;
+        while (timeDelta < hideVSGraphicDelay)
+        {
+            timeDelta += Time.deltaTime;
+            yield return null;
+        }
+    }
+
+    IEnumerator DelayShowAttackAnimation(Summon redSummon, Summon blueSummon, BattleResult result)
+    {
+        float timeDelta = 0f;
+        while (timeDelta < showAttackGraphicDelay)
+        {
+            timeDelta += Time.deltaTime;
+            yield return null;
+        }
+    }
+
+    IEnumerator DelayShowResultAnimations(BattleResult result)
+    {
+        float timeDelta = 0f;
+        while (timeDelta < showResultGrahicDelay)
+        {
+            timeDelta += Time.deltaTime;
+            yield return null;
         }
     }
 }

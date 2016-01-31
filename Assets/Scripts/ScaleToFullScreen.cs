@@ -24,8 +24,19 @@ public class ScaleToFullScreen : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        StartCoroutine(ScaleOut());
+        //StartCoroutine(ScaleOut());
 	}
+
+    public void BeginScaleOut()
+    {
+        StartCoroutine(ScaleOut());
+    }
+
+
+    public void BeginScaleIn()
+    {
+        StartCoroutine(ScaleIn());
+    }
 
     IEnumerator ScaleOut()
     {
@@ -55,7 +66,7 @@ public class ScaleToFullScreen : MonoBehaviour {
             yield return null;
             delta += Time.deltaTime;
         }
-        StartCoroutine(ScaleIn());
+        //StartCoroutine(ScaleIn());
     }
 
     IEnumerator ScaleIn()

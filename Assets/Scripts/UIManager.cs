@@ -189,7 +189,7 @@ public class UIManager : MonoBehaviour {
             ClearPlayerSelections(play);
             currentSelectionRed = tempSelection;
         }
-        else if (play == Player.Red && acceptingInput)
+        else if (play == Player.Blue && acceptingInput)
         {
             if (currentSelectionBlue == RitualObjectId.NONE)
             {

@@ -86,7 +86,7 @@ public class MainMenuSelector : MonoBehaviour
                 //     break;
                 case XboxButton.DPadRight:
                 Debug.Log(String.Format("Count={0}  rt", count));
-                    if(count +1 >= 3)
+                    if(count +1 >= 4)
                     {
                         count = 0;
                     }

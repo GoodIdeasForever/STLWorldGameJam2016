@@ -19,7 +19,8 @@ public enum RitualObjAnimation
     Action2,
     Action3,
     Action4,
-    Selected
+    Selected,
+    Deselected
 }
 
 public enum Player
@@ -80,18 +81,22 @@ public class UIManager : MonoBehaviour {
             }
             else if (currentSelectionRed == RitualObjectId.Socks && direction == Direction.Right)
             {
+                DisplaySelection(currentSelectionRed, RitualObjAnimation.Deselected, play);
                 tempSelection = RitualObjectId.Jersey;
             }
             else if (currentSelectionRed == RitualObjectId.Jersey && direction == Direction.Left)
             {
+                DisplaySelection(currentSelectionRed, RitualObjAnimation.Deselected, play);
                 tempSelection = RitualObjectId.Socks;
             }
             else if (direction == Direction.Right)
             {
+                DisplaySelection(currentSelectionRed, RitualObjAnimation.Deselected, play);
                 tempSelection = (RitualObjectId)(((int)currentSelectionRed)+1);
             }
             else if (direction == Direction.Left)
             {
+                DisplaySelection(currentSelectionRed, RitualObjAnimation.Deselected, play);
                 tempSelection = (RitualObjectId)(((int)currentSelectionRed) - 1);
             }
             ClearPlayerSelections(play);
@@ -103,13 +108,25 @@ public class UIManager : MonoBehaviour {
             {
                 tempSelection = RitualObjectId.Jersey;
             }
-            else if (currentSelectionBlue == RitualObjectId.Socks)
+            else if (currentSelectionBlue == RitualObjectId.Socks && direction == Direction.Right)
             {
+                DisplaySelection(currentSelectionBlue, RitualObjAnimation.Deselected, play);
+                tempSelection = RitualObjectId.Jersey;
+            }
+            else if (currentSelectionBlue == RitualObjectId.Jersey && direction == Direction.Left)
+            {
+                DisplaySelection(currentSelectionBlue, RitualObjAnimation.Deselected, play);
                 tempSelection = RitualObjectId.Socks;
             }
-            else
+            else if (direction == Direction.Right)
             {
+                DisplaySelection(currentSelectionBlue, RitualObjAnimation.Deselected, play);
                 tempSelection = (RitualObjectId)(((int)currentSelectionBlue) + 1);
+            }
+            else if (direction == Direction.Left)
+            {
+                DisplaySelection(currentSelectionBlue, RitualObjAnimation.Deselected, play);
+                tempSelection = (RitualObjectId)(((int)currentSelectionBlue) - 1);
             }
 
             ClearPlayerSelections(play);

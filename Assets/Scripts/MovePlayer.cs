@@ -113,7 +113,7 @@ public class MovePlayer : MonoBehaviour
     
     private void doRitualActionSelection(ActionButton btn)
     {
-        if(curPlayer != null && curRitual != RitualObjectId.NONE)
+        if(curRitual != RitualObjectId.NONE)
         {
             if(UIManager.Instance.TrySelectRitualAction(btn, curPlayer))
             {

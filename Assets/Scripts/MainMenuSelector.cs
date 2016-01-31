@@ -9,8 +9,9 @@ public class MainMenuSelector : MonoBehaviour
     public List<UnityEngine.UI.Button> menuButtons = new List<UnityEngine.UI.Button>();
     
     private List<XboxButton> registeredButtons = new List<XboxButton> { 
-        XboxButton.X, XboxButton.DPadLeft, XboxButton.DPadRight
+        XboxButton.A, XboxButton.DPadLeft, XboxButton.DPadRight
     };
+    public List<String> registeredButtonsActions = new List<String>();
     private static MainMenuSelector instance;
     private int count = 0;
     private bool didQueryNumCtrls = false;
@@ -86,7 +87,7 @@ public class MainMenuSelector : MonoBehaviour
                 //     break;
                 case XboxButton.DPadRight:
                 Debug.Log(String.Format("Count={0}  rt", count));
-                    if(count +1 >= 3)
+                    if(count +1 >= 4)
                     {
                         count = 0;
                     }
@@ -126,22 +127,14 @@ public class MainMenuSelector : MonoBehaviour
             }
             if(apressed)
             {
-                switch(count)
+                String action = registeredButtonsActions[count];
+                if(action == "Exit")
                 {
-                    case 0:
-                        SceneLoader.Instance.LoadNewScene("Main");
-                        break;
-                    case 1:
-                        SceneLoader.Instance.LoadNewScene("Instructions");
-                        break;
-                    case 2:
-                        SceneLoader.Instance.LoadNewScene("CreditsScene");
-                        break;
-                    case 3:
-                       SceneLoader.Instance.ExitGame(); 
-                    default:
-                        Debug.Log(String.Format("count={0}", count));
-                        break;
+                    SceneLoader.Instance.ExitGame();
+                }
+                else
+                {
+                    SceneLoader.Instance.LoadNewScene(action);
                 }
             } 
         }

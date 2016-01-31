@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class RitualGeneratorFSM : MonoBehaviour
+public class RitualGeneratorFSM
 {
 	#region Control Constants
 	// Tweak these values to control the generation of rituals

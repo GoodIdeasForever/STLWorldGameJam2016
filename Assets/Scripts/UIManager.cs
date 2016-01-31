@@ -135,6 +135,22 @@ public class UIManager : MonoBehaviour {
         {
             SelectRitualObject(Direction.Left, Player.Red);
         }
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            TrySelectRitualAction(ActionButton.A, Player.Red);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            TrySelectRitualAction(ActionButton.B, Player.Red);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            TrySelectRitualAction(ActionButton.X, Player.Red);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            TrySelectRitualAction(ActionButton.Y, Player.Red);
+        }
     }
 
     public RitualObjectId SelectRitualObject(Direction direction, Player play)

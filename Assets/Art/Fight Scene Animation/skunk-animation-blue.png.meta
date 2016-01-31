@@ -1,9 +1,79 @@
 fileFormatVersion: 2
 guid: 79dc67914f97a40dd83be906cafac914
-timeCreated: 1454265514
+timeCreated: 1454267604
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: skunk-animation-blue_0
+    21300002: skunk-animation-blue_1
+    21300004: skunk-animation-blue_2
+    21300006: skunk-animation-blue_3
+    21300008: skunk-animation-blue_4
+    21300010: skunk-animation-blue_5
+    21300012: skunk-animation-blue_6
+    21300014: skunk-animation-blue_7
+    21300016: skunk-animation-blue_8
+    21300018: skunk-animation-blue_9
+    21300020: skunk-animation-blue_10
+    21300022: skunk-animation-blue_11
+    21300024: skunk-animation-blue_12
+    21300026: skunk-animation-blue_13
+    21300028: skunk-animation-blue_14
+    21300030: skunk-animation-blue_15
+    21300032: skunk-animation-blue_16
+    21300034: skunk-animation-blue_17
+    21300036: skunk-animation-blue_18
+    21300038: skunk-animation-blue_19
+    21300040: skunk-animation-blue_20
+    21300042: skunk-animation-blue_21
+    21300044: skunk-animation-blue_22
+    21300046: skunk-animation-blue_23
+    21300048: skunk-animation-blue_24
+    21300050: skunk-animation-blue_25
+    21300052: skunk-animation-blue_26
+    21300054: skunk-animation-blue_27
+    21300056: skunk-animation-blue_28
+    21300058: skunk-animation-blue_29
+    21300060: skunk-animation-blue_30
+    21300062: skunk-animation-blue_31
+    21300064: skunk-animation-blue_32
+    21300066: skunk-animation-blue_33
+    21300068: skunk-animation-blue_34
+    21300070: skunk-animation-blue_35
+    21300072: skunk-animation-blue_36
+    21300074: skunk-animation-blue_37
+    21300076: skunk-animation-blue_38
+    21300078: skunk-animation-blue_39
+    21300080: skunk-animation-blue_40
+    21300082: skunk-animation-blue_41
+    21300084: skunk-animation-blue_42
+    21300086: skunk-animation-blue_43
+    21300088: skunk-animation-blue_44
+    21300090: skunk-animation-blue_45
+    21300092: skunk-animation-blue_46
+    21300094: skunk-animation-blue_47
+    21300096: skunk-animation-blue_48
+    21300098: skunk-animation-blue_49
+    21300100: skunk-animation-blue_50
+    21300102: skunk-animation-blue_51
+    21300104: skunk-animation-blue_52
+    21300106: skunk-animation-blue_53
+    21300108: skunk-animation-blue_54
+    21300110: skunk-animation-blue_55
+    21300112: skunk-animation-blue_56
+    21300114: skunk-animation-blue_57
+    21300116: skunk-animation-blue_58
+    21300118: skunk-animation-blue_59
+    21300120: skunk-animation-blue_60
+    21300122: skunk-animation-blue_61
+    21300124: skunk-animation-blue_62
+    21300126: skunk-animation-blue_63
+    21300128: skunk-animation-blue_64
+    21300130: skunk-animation-blue_65
+    21300132: skunk-animation-blue_66
+    21300134: skunk-animation-blue_67
+    21300136: skunk-animation-blue_68
+    21300138: skunk-animation-blue_69
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -49,7 +119,1057 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: skunk-animation-blue_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8827
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 73.835815}
+        - {x: -108, y: -73.164185}
+        - {x: 108, y: -73.164185}
+        - {x: 108, y: 73.835815}
+    - name: skunk-animation-blue_1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 8827
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 73.835815}
+        - {x: -107.600006, y: -73.164185}
+        - {x: 108.399994, y: -73.164185}
+        - {x: 108.399994, y: 73.835815}
+    - name: skunk-animation-blue_2
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 8827
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 73.835815}
+        - {x: -107.70001, y: -73.164185}
+        - {x: 109.29999, y: -73.164185}
+        - {x: 109.29999, y: 73.835815}
+    - name: skunk-animation-blue_3
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 8827
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 73.835815}
+        - {x: -107.79999, y: -73.164185}
+        - {x: 108.20001, y: -73.164185}
+        - {x: 108.20001, y: 73.835815}
+    - name: skunk-animation-blue_4
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 8827
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 73.835815}
+        - {x: -107.400024, y: -73.164185}
+        - {x: 108.599976, y: -73.164185}
+        - {x: 108.599976, y: 73.835815}
+    - name: skunk-animation-blue_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8148
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 73.57922}
+        - {x: -108, y: -73.42078}
+        - {x: 108, y: -73.42078}
+        - {x: 108, y: 73.57922}
+    - name: skunk-animation-blue_6
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 8148
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 73.57922}
+        - {x: -107.600006, y: -73.42078}
+        - {x: 108.399994, y: -73.42078}
+        - {x: 108.399994, y: 73.57922}
+    - name: skunk-animation-blue_7
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 8148
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 73.57922}
+        - {x: -107.70001, y: -73.42078}
+        - {x: 109.29999, y: -73.42078}
+        - {x: 109.29999, y: 73.57922}
+    - name: skunk-animation-blue_8
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 8148
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 73.57922}
+        - {x: -107.79999, y: -73.42078}
+        - {x: 108.20001, y: -73.42078}
+        - {x: 108.20001, y: 73.57922}
+    - name: skunk-animation-blue_9
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 8148
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 73.57922}
+        - {x: -107.400024, y: -73.42078}
+        - {x: 108.599976, y: -73.42078}
+        - {x: 108.599976, y: 73.57922}
+    - name: skunk-animation-blue_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7469
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 74.82251}
+        - {x: -108, y: -73.17749}
+        - {x: 108, y: -73.17749}
+        - {x: 108, y: 74.82251}
+    - name: skunk-animation-blue_11
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 7469
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 74.82251}
+        - {x: -107.600006, y: -73.17749}
+        - {x: 108.399994, y: -73.17749}
+        - {x: 108.399994, y: 74.82251}
+    - name: skunk-animation-blue_12
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 7469
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 74.82251}
+        - {x: -107.70001, y: -73.17749}
+        - {x: 109.29999, y: -73.17749}
+        - {x: 109.29999, y: 74.82251}
+    - name: skunk-animation-blue_13
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 7469
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 74.82251}
+        - {x: -107.79999, y: -73.17749}
+        - {x: 108.20001, y: -73.17749}
+        - {x: 108.20001, y: 74.82251}
+    - name: skunk-animation-blue_14
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 7469
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 74.82251}
+        - {x: -107.400024, y: -73.17749}
+        - {x: 108.599976, y: -73.17749}
+        - {x: 108.599976, y: 74.82251}
+    - name: skunk-animation-blue_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6790
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 74.06592}
+        - {x: -108, y: -72.93408}
+        - {x: 108, y: -72.93408}
+        - {x: 108, y: 74.06592}
+    - name: skunk-animation-blue_16
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 6790
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 74.06592}
+        - {x: -107.600006, y: -72.93408}
+        - {x: 108.399994, y: -72.93408}
+        - {x: 108.399994, y: 74.06592}
+    - name: skunk-animation-blue_17
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 6790
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 74.06592}
+        - {x: -107.70001, y: -72.93408}
+        - {x: 109.29999, y: -72.93408}
+        - {x: 109.29999, y: 74.06592}
+    - name: skunk-animation-blue_18
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 6790
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 74.06592}
+        - {x: -107.79999, y: -72.93408}
+        - {x: 108.20001, y: -72.93408}
+        - {x: 108.20001, y: 74.06592}
+    - name: skunk-animation-blue_19
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 6790
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 74.06592}
+        - {x: -107.400024, y: -72.93408}
+        - {x: 108.599976, y: -72.93408}
+        - {x: 108.599976, y: 74.06592}
+    - name: skunk-animation-blue_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6111
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 73.809326}
+        - {x: -108, y: -73.190674}
+        - {x: 108, y: -73.190674}
+        - {x: 108, y: 73.809326}
+    - name: skunk-animation-blue_21
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 6111
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 73.809326}
+        - {x: -107.600006, y: -73.190674}
+        - {x: 108.399994, y: -73.190674}
+        - {x: 108.399994, y: 73.809326}
+    - name: skunk-animation-blue_22
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 6111
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 73.809326}
+        - {x: -107.70001, y: -73.190674}
+        - {x: 109.29999, y: -73.190674}
+        - {x: 109.29999, y: 73.809326}
+    - name: skunk-animation-blue_23
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 6111
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 73.809326}
+        - {x: -107.79999, y: -73.190674}
+        - {x: 108.20001, y: -73.190674}
+        - {x: 108.20001, y: 73.809326}
+    - name: skunk-animation-blue_24
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 6111
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 73.809326}
+        - {x: -107.400024, y: -73.190674}
+        - {x: 108.599976, y: -73.190674}
+        - {x: 108.599976, y: 73.809326}
+    - name: skunk-animation-blue_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5432
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 73.552734}
+        - {x: -108, y: -73.447266}
+        - {x: 108, y: -73.447266}
+        - {x: 108, y: 73.552734}
+    - name: skunk-animation-blue_26
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 5432
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 73.552734}
+        - {x: -107.600006, y: -73.447266}
+        - {x: 108.399994, y: -73.447266}
+        - {x: 108.399994, y: 73.552734}
+    - name: skunk-animation-blue_27
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5432
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 73.552734}
+        - {x: -107.70001, y: -73.447266}
+        - {x: 109.29999, y: -73.447266}
+        - {x: 109.29999, y: 73.552734}
+    - name: skunk-animation-blue_28
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5432
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 73.552734}
+        - {x: -107.79999, y: -73.447266}
+        - {x: 108.20001, y: -73.447266}
+        - {x: 108.20001, y: 73.552734}
+    - name: skunk-animation-blue_29
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5432
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 73.552734}
+        - {x: -107.400024, y: -73.447266}
+        - {x: 108.599976, y: -73.447266}
+        - {x: 108.599976, y: 73.552734}
+    - name: skunk-animation-blue_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4753
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 74.7962}
+        - {x: -108, y: -73.2038}
+        - {x: 108, y: -73.2038}
+        - {x: 108, y: 74.7962}
+    - name: skunk-animation-blue_31
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 4753
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 74.7962}
+        - {x: -107.600006, y: -73.2038}
+        - {x: 108.399994, y: -73.2038}
+        - {x: 108.399994, y: 74.7962}
+    - name: skunk-animation-blue_32
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4753
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 74.7962}
+        - {x: -107.70001, y: -73.2038}
+        - {x: 109.29999, y: -73.2038}
+        - {x: 109.29999, y: 74.7962}
+    - name: skunk-animation-blue_33
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4753
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 74.7962}
+        - {x: -107.79999, y: -73.2038}
+        - {x: 108.20001, y: -73.2038}
+        - {x: 108.20001, y: 74.7962}
+    - name: skunk-animation-blue_34
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4753
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 74.7962}
+        - {x: -107.400024, y: -73.2038}
+        - {x: 108.599976, y: -73.2038}
+        - {x: 108.599976, y: 74.7962}
+    - name: skunk-animation-blue_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4074
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 74.03961}
+        - {x: -108, y: -72.96039}
+        - {x: 108, y: -72.96039}
+        - {x: 108, y: 74.03961}
+    - name: skunk-animation-blue_36
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 4074
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 74.03961}
+        - {x: -107.600006, y: -72.96039}
+        - {x: 108.399994, y: -72.96039}
+        - {x: 108.399994, y: 74.03961}
+    - name: skunk-animation-blue_37
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4074
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 74.03961}
+        - {x: -107.70001, y: -72.96039}
+        - {x: 109.29999, y: -72.96039}
+        - {x: 109.29999, y: 74.03961}
+    - name: skunk-animation-blue_38
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4074
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 74.03961}
+        - {x: -107.79999, y: -72.96039}
+        - {x: 108.20001, y: -72.96039}
+        - {x: 108.20001, y: 74.03961}
+    - name: skunk-animation-blue_39
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4074
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 74.03961}
+        - {x: -107.400024, y: -72.96039}
+        - {x: 108.599976, y: -72.96039}
+        - {x: 108.599976, y: 74.03961}
+    - name: skunk-animation-blue_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3395
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 73.78296}
+        - {x: -108, y: -73.21704}
+        - {x: 108, y: -73.21704}
+        - {x: 108, y: 73.78296}
+    - name: skunk-animation-blue_41
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3395
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 73.78296}
+        - {x: -107.600006, y: -73.21704}
+        - {x: 108.399994, y: -73.21704}
+        - {x: 108.399994, y: 73.78296}
+    - name: skunk-animation-blue_42
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3395
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 73.78296}
+        - {x: -107.70001, y: -73.21704}
+        - {x: 109.29999, y: -73.21704}
+        - {x: 109.29999, y: 73.78296}
+    - name: skunk-animation-blue_43
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3395
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 73.78296}
+        - {x: -107.79999, y: -73.21704}
+        - {x: 108.20001, y: -73.21704}
+        - {x: 108.20001, y: 73.78296}
+    - name: skunk-animation-blue_44
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3395
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 73.78296}
+        - {x: -107.400024, y: -73.21704}
+        - {x: 108.599976, y: -73.21704}
+        - {x: 108.599976, y: 73.78296}
+    - name: skunk-animation-blue_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2716
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 73.52637}
+        - {x: -108, y: -73.47363}
+        - {x: 108, y: -73.47363}
+        - {x: 108, y: 73.52637}
+    - name: skunk-animation-blue_46
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2716
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 73.52637}
+        - {x: -107.600006, y: -73.47363}
+        - {x: 108.399994, y: -73.47363}
+        - {x: 108.399994, y: 73.52637}
+    - name: skunk-animation-blue_47
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2716
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 73.52637}
+        - {x: -107.70001, y: -73.47363}
+        - {x: 109.29999, y: -73.47363}
+        - {x: 109.29999, y: 73.52637}
+    - name: skunk-animation-blue_48
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2716
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 73.52637}
+        - {x: -107.79999, y: -73.47363}
+        - {x: 108.20001, y: -73.47363}
+        - {x: 108.20001, y: 73.52637}
+    - name: skunk-animation-blue_49
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2716
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 73.52637}
+        - {x: -107.400024, y: -73.47363}
+        - {x: 108.599976, y: -73.47363}
+        - {x: 108.599976, y: 73.52637}
+    - name: skunk-animation-blue_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2037
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 74.769806}
+        - {x: -108, y: -73.230194}
+        - {x: 108, y: -73.230194}
+        - {x: 108, y: 74.769806}
+    - name: skunk-animation-blue_51
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2037
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 74.769806}
+        - {x: -107.600006, y: -73.230194}
+        - {x: 108.399994, y: -73.230194}
+        - {x: 108.399994, y: 74.769806}
+    - name: skunk-animation-blue_52
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2037
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 74.769806}
+        - {x: -107.70001, y: -73.230194}
+        - {x: 109.29999, y: -73.230194}
+        - {x: 109.29999, y: 74.769806}
+    - name: skunk-animation-blue_53
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2037
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 74.769806}
+        - {x: -107.79999, y: -73.230194}
+        - {x: 108.20001, y: -73.230194}
+        - {x: 108.20001, y: 74.769806}
+    - name: skunk-animation-blue_54
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2037
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 74.769806}
+        - {x: -107.400024, y: -73.230194}
+        - {x: 108.599976, y: -73.230194}
+        - {x: 108.599976, y: 74.769806}
+    - name: skunk-animation-blue_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1358
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 74.01318}
+        - {x: -108, y: -72.98682}
+        - {x: 108, y: -72.98682}
+        - {x: 108, y: 74.01318}
+    - name: skunk-animation-blue_56
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1358
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 74.01318}
+        - {x: -107.600006, y: -72.98682}
+        - {x: 108.399994, y: -72.98682}
+        - {x: 108.399994, y: 74.01318}
+    - name: skunk-animation-blue_57
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1358
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 74.01318}
+        - {x: -107.70001, y: -72.98682}
+        - {x: 109.29999, y: -72.98682}
+        - {x: 109.29999, y: 74.01318}
+    - name: skunk-animation-blue_58
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1358
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 74.01318}
+        - {x: -107.79999, y: -72.98682}
+        - {x: 108.20001, y: -72.98682}
+        - {x: 108.20001, y: 74.01318}
+    - name: skunk-animation-blue_59
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1358
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 74.01318}
+        - {x: -107.400024, y: -72.98682}
+        - {x: 108.599976, y: -72.98682}
+        - {x: 108.599976, y: 74.01318}
+    - name: skunk-animation-blue_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 679
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 73.75659}
+        - {x: -108, y: -73.24341}
+        - {x: 108, y: -73.24341}
+        - {x: 108, y: 73.75659}
+    - name: skunk-animation-blue_61
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 679
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 73.75659}
+        - {x: -107.600006, y: -73.24341}
+        - {x: 108.399994, y: -73.24341}
+        - {x: 108.399994, y: 73.75659}
+    - name: skunk-animation-blue_62
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 679
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 73.75659}
+        - {x: -107.70001, y: -73.24341}
+        - {x: 109.29999, y: -73.24341}
+        - {x: 109.29999, y: 73.75659}
+    - name: skunk-animation-blue_63
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 679
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 73.75659}
+        - {x: -107.79999, y: -73.24341}
+        - {x: 108.20001, y: -73.24341}
+        - {x: 108.20001, y: 73.75659}
+    - name: skunk-animation-blue_64
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 679
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 73.75659}
+        - {x: -107.400024, y: -73.24341}
+        - {x: 108.599976, y: -73.24341}
+        - {x: 108.599976, y: 73.75659}
+    - name: skunk-animation-blue_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 73.5}
+        - {x: -108, y: -73.5}
+        - {x: 108, y: -73.5}
+        - {x: 108, y: 73.5}
+    - name: skunk-animation-blue_66
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.600006, y: 73.5}
+        - {x: -107.600006, y: -73.5}
+        - {x: 108.399994, y: -73.5}
+        - {x: 108.399994, y: 73.5}
+    - name: skunk-animation-blue_67
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.70001, y: 73.5}
+        - {x: -107.70001, y: -73.5}
+        - {x: 109.29999, y: -73.5}
+        - {x: 109.29999, y: 73.5}
+    - name: skunk-animation-blue_68
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.79999, y: 73.5}
+        - {x: -107.79999, y: 70.5}
+        - {x: 108.20001, y: 70.5}
+        - {x: 108.20001, y: 73.5}
+    - name: skunk-animation-blue_69
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 1000
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.400024, y: 73.5}
+        - {x: -107.400024, y: 70.5}
+        - {x: 108.599976, y: 70.5}
+        - {x: 108.599976, y: 73.5}
     outline: []
   spritePackingTag: 
   userData: 

@@ -95,11 +95,11 @@ public class UIManager : MonoBehaviour {
     public float showResultGrahicDelay = 6f;
     public float resetTVCanvasDelay = 7f;
 
-    public List<RectTransform> redSummonAnimations;
-    public List<RectTransform> blueSummonAnimations;
-    public List<RectTransform> attackAnimations;
+    public AnimationStateController redSummonAnimations;
+    public AnimationStateController blueSummonAnimations;
+    public AnimationStateController attackAnimations;
     public RectTransform versusAnimation;
-    public List<RectTransform> battleResultAnimations;
+    public AnimationStateController battleResultAnimations;
 
     void Awake()
     {
@@ -447,8 +447,8 @@ public class UIManager : MonoBehaviour {
             timeDelta += Time.deltaTime;
             yield return null;
         }
-        redSummonAnimations[(int)redSummon].gameObject.SetActive(true);
-        blueSummonAnimations[(int)blueSummon].gameObject.SetActive(true);
+        redSummonAnimations.PlayAnimation((int)redSummon]);
+        blueSummonAnimations.PlayAnimation((int)blueSummon);
     }
 
     IEnumerator DelayShowVSAnimation()
@@ -483,7 +483,7 @@ public class UIManager : MonoBehaviour {
         }
         if (result != BattleResult.Draw)
         {
-            attackAnimations[(int)(result == BattleResult.RedVictory ? redSummon : blueSummon)].gameObject.SetActive(true);
+            attackAnimations.PlayAnimation((int)(result == BattleResult.RedVictory ? redSummon : blueSummon));
         }
     }
 
@@ -495,7 +495,7 @@ public class UIManager : MonoBehaviour {
             timeDelta += Time.deltaTime;
             yield return null;
         }
-        battleResultAnimations[(int)result].gameObject.SetActive(true);
+        battleResultAnimations.PlayAnimation((int)result);
     }
 
     IEnumerator DelayResetTVCanvas()
@@ -506,23 +506,11 @@ public class UIManager : MonoBehaviour {
             timeDelta += Time.deltaTime;
             yield return null;
         }
-        foreach(var anim in redSummonAnimations)
-        {
-            anim.gameObject.SetActive(false);
-        }
-        foreach (var anim in blueSummonAnimations)
-        {
-            anim.gameObject.SetActive(false);
-        }
-        foreach (var anim in attackAnimations)
-        {
-            anim.gameObject.SetActive(false);
-        }
+        redSummonAnimations.Clear();
+        bluesocksAnimations.Clear();
+        attackAnimations.Clear();
         versusAnimation.gameObject.SetActive(false);
-        foreach (var anim in battleResultAnimations)
-        {
-            anim.gameObject.SetActive(false);
-        }
+        battleResultAnimations.Clear();
         tvCanvasScaler.BeginScaleIn();
     }
 }

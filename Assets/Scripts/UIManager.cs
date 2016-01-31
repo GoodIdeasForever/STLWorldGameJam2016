@@ -328,34 +328,39 @@ public class UIManager : MonoBehaviour {
                     //    ui.gameObject.SetActive(false);
                     //}
                     //redbuddhaAnimations[(int)anim].gameObject.SetActive(true);
+                    redbuddha.PlayObjectInteraction(anim);
                     break;
                 case RitualObjectId.FoamFinger:
-                    foreach (var ui in redfoamFingerAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    redfoamFingerAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in redfoamFingerAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //redfoamFingerAnimations[(int)anim].gameObject.SetActive(true);
+                    redfoamFinger.PlayObjectInteraction(anim);
                     break;
                 case RitualObjectId.Jersey:
-                    foreach (var ui in redjerseyAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    redjerseyAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in redjerseyAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //redjerseyAnimations[(int)anim].gameObject.SetActive(true);
+                    redjersey.PlayObjectInteraction(anim);
                     break;
                 case RitualObjectId.PizzaBox:
-                    foreach (var ui in redpizzaBoxAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    redpizzaBoxAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in redpizzaBoxAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //redpizzaBoxAnimations[(int)anim].gameObject.SetActive(true);
+                    redpizzaBox.PlayObjectInteraction(anim);
                     break;
                 case RitualObjectId.Socks:
-                    foreach (var ui in redsocksAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    redsocksAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in redsocksAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //redsocksAnimations[(int)anim].gameObject.SetActive(true);
+                    redsocks.PlayObjectInteraction(anim);
                     break;
                 default:
                     break;
@@ -367,46 +372,52 @@ public class UIManager : MonoBehaviour {
             switch (ritualObj)
             {
                 case RitualObjectId.BobbleHead:
-                    foreach (var ui in bluebobbleHeadAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    bluebobbleHeadAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in bluebobbleHeadAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //bluebobbleHeadAnimations[(int)anim].gameObject.SetActive(true);
+                    bluebobbleHead.PlayObjectInteraction(anim);
                     break;
                 case RitualObjectId.Buddha:
-                    foreach (var ui in bluebuddhaAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    bluebuddhaAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in bluebuddhaAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //bluebuddhaAnimations[(int)anim].gameObject.SetActive(true);
+                    bluebuddha.PlayObjectInteraction(anim);
                     break;
                 case RitualObjectId.FoamFinger:
-                    foreach (var ui in bluefoamFingerAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    bluefoamFingerAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in bluefoamFingerAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //bluefoamFingerAnimations[(int)anim].gameObject.SetActive(true);
+                    bluefoamFinger.PlayObjectInteraction(anim);
                     break;
                 case RitualObjectId.Jersey:
-                    foreach (var ui in bluejerseyAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    bluejerseyAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in bluejerseyAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //bluejerseyAnimations[(int)anim].gameObject.SetActive(true);
+                    bluejersey.PlayObjectInteraction(anim);
                     break;
                 case RitualObjectId.PizzaBox:
-                    foreach (var ui in bluepizzaBoxAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    bluepizzaBoxAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in bluepizzaBoxAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //bluepizzaBoxAnimations[(int)anim].gameObject.SetActive(true);
+                    bluepizzaBox.PlayObjectInteraction(anim);
                     break;
                 case RitualObjectId.Socks:
-                    foreach (var ui in bluesocksAnimations)
-                    {
-                        ui.gameObject.SetActive(false);
-                    }
-                    bluesocksAnimations[(int)anim].gameObject.SetActive(true);
+                    //foreach (var ui in bluesocksAnimations)
+                    //{
+                    //    ui.gameObject.SetActive(false);
+                    //}
+                    //bluesocksAnimations[(int)anim].gameObject.SetActive(true);
+                    bluesocks.PlayObjectInteraction(anim);
                     break;
                 default:
                     break;

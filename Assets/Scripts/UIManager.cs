@@ -151,6 +151,10 @@ public class UIManager : MonoBehaviour {
         {
             TrySelectRitualAction(ActionButton.Y, Player.Red);
         }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            DisplaySummonBattle((Summon)Random.Range(1, 5), (Summon)Random.Range(1, 5));
+        }
     }
 
     public RitualObjectId SelectRitualObject(Direction direction, Player play)
@@ -445,13 +449,14 @@ public class UIManager : MonoBehaviour {
     public void DisplaySummonBattle(Summon redSummon, Summon blueSummon)
     {
         acceptingInput = false;
-        tvCanvasScaler.BeginScaleIn();
+        tvCanvasScaler.BeginScaleOut();
         BattleResult result = GameState.instance.GetBattleResult(redSummon, blueSummon);
         StartCoroutine(DelayShowSummonAnimations(redSummon, blueSummon));
         StartCoroutine(DelayShowVSAnimation());
         StartCoroutine(DelayHideVSAnimation());
         StartCoroutine(DelayShowAttackAnimation(redSummon,blueSummon,result));
         StartCoroutine(DelayShowResultAnimations(result));
+        StartCoroutine(DelayResetTVCanvas());
 
     }
 
@@ -523,7 +528,7 @@ public class UIManager : MonoBehaviour {
             yield return null;
         }
         redSummonAnimations.Clear();
-        bluesocksAnimations.Clear();
+        blueSummonAnimations.Clear();
         attackAnimations.Clear();
         versusAnimation.gameObject.SetActive(false);
         battleResultAnimations.Clear();

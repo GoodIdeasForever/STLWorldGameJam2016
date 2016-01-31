@@ -6,11 +6,28 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
     private AudioSource changeMenuSound;
+    private static SceneLoader instance;
    
     public void Awake()
     {
+        if(instance == null)
+        {
+            instance = new SceneLoader();
+        }
+        instance = this;
         changeMenuSound = gameObject.GetComponent<AudioSource>();
     }
+    
+    public static SceneLoader Instance {
+        get 
+        {
+            if(instance == null) {
+                instance = new SceneLoader();
+            }  
+            return instance;
+        }
+    }
+    
 	public void LoadNewScene(string sceneToLoad)
 	{
 

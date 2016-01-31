@@ -69,7 +69,7 @@ public class MainMenuSelector : MonoBehaviour
         if(btn != XboxButton.NONE)
         {
             Debug.Log(String.Format("btn={0}", btn));
-            bool xpressed = false;
+            bool apressed = false;
             switch(btn)
             {
                 // case XboxButton.DPadLeft:
@@ -95,9 +95,9 @@ public class MainMenuSelector : MonoBehaviour
                         count += 1;
                     }
                     break;
-                case XboxButton.X:
-                    Debug.Log("X button pressed");
-                    xpressed = true;
+                case XboxButton.A:
+                    Debug.Log("A button pressed");
+                    apressed = true;
                     break;
                 default:
                     Debug.Log(String.Format("Button {0} is unmapped", btn));
@@ -124,7 +124,7 @@ public class MainMenuSelector : MonoBehaviour
                     menuButtons[i].image.color = c;
                 }
             }
-            if(xpressed)
+            if(apressed)
             {
                 switch(count)
                 {
